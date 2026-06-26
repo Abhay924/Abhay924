@@ -1,1 +1,92 @@
 
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 52px; fill: #FFFFFF; letter-spacing: -1px; }
+        .subtitle { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 600; font-size: 26px; fill: #00F0FF; }
+        .badge-text { font-family: 'Fira Code', monospace; font-weight: 500; font-size: 15px; fill: #C9D1D9; }
+        
+        .glass-panel {
+            fill: rgba(20, 24, 39, 0.6);
+            stroke: rgba(255, 255, 255, 0.08);
+            stroke-width: 1;
+            backdrop-filter: blur(12px);
+        }
+        
+        .float-slow { animation: float 7s ease-in-out infinite; }
+        .float-med { animation: float 5s ease-in-out infinite reverse; }
+        .float-fast { animation: float 4s ease-in-out infinite; }
+        
+        .glow-blue { filter: drop-shadow(0 0 12px rgba(0, 240, 255, 0.8)); }
+        .glow-purple { filter: drop-shadow(0 0 15px rgba(138, 43, 226, 0.8)); }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(1deg); }
+        }
+    </style>
+
+    <defs>
+        <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#05050A" />
+            <stop offset="50%" stop-color="#0A0A16" />
+            <stop offset="100%" stop-color="#040308" />
+        </linearGradient>
+        <linearGradient id="neon-stripe" x1="0" y1="0" x2="1000" y2="0">
+            <stop offset="0%" stop-color="#00F0FF" />
+            <stop offset="50%" stop-color="#8A2BE2" />
+            <stop offset="100%" stop-color="#00F0FF" />
+        </linearGradient>
+        <pattern id="cyber-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+        </pattern>
+    </defs>
+
+    <!-- Deep Space Cyber Background -->
+    <rect width="1000" height="360" rx="16" fill="url(#bg-grad)" />
+    <rect width="1000" height="360" fill="url(#cyber-grid)" />
+
+    <!-- Glassmorphism Main Content Plate -->
+    <rect x="50" y="55" width="580" height="250" rx="16" class="glass-panel" />
+
+    <!-- Typography -->
+    <text x="90" y="130" class="title">Abhay Kushwaha</text>
+    <text x="90" y="175" class="subtitle">Software Engineer</text>
+    <text x="90" y="215" class="badge-text">Java Full Stack | MERN | Microservices</text>
+    
+    <!-- Open to Work Neon Badge -->
+    <rect x="90" y="240" width="150" height="36" rx="18" fill="rgba(0, 240, 255, 0.05)" stroke="#00F0FF" stroke-width="1.5" class="glow-blue"/>
+    <circle cx="110" cy="258" r="4" fill="#00F0FF" class="glow-blue"/>
+    <text x="125" y="263" class="badge-text" fill="#00F0FF">Open To Work</text>
+
+    <!-- Bottom Edge Accent -->
+    <rect x="0" y="356" width="1000" height="4" fill="url(#neon-stripe)" />
+
+    <!-- Premium 3D Minimalist Tech Illustration -->
+    <g class="float-slow" transform="translate(800, 180)">
+        <!-- Orbit Rings -->
+        <ellipse cx="0" cy="0" rx="110" ry="40" fill="none" stroke="rgba(138, 43, 226, 0.4)" stroke-width="2" transform="rotate(30)" />
+        <ellipse cx="0" cy="0" rx="110" ry="40" fill="none" stroke="rgba(0, 240, 255, 0.3)" stroke-width="2" transform="rotate(-30)" />
+        
+        <!-- Apple-Inspired Laptop Minimal Vector -->
+        <path d="M-60 -20 H60 V30 H-60 Z" fill="#161B22" stroke="#C9D1D9" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M-80 30 H80 V38 H-80 Z" fill="#C9D1D9"/>
+        <path d="M-15 30 H15 V33 H-15 Z" fill="#58A6FF"/>
+        <!-- Glowing Screen Center -->
+        <circle cx="0" cy="5" r="8" fill="#00F0FF" class="glow-blue"/>
+    </g>
+
+    <!-- Floating Technology Orbs -->
+    <g class="float-fast">
+        <!-- Java Concept Sphere -->
+        <circle cx="700" cy="100" r="12" fill="#ED8B00" />
+        <circle cx="700" cy="100" r="18" fill="none" stroke="#ED8B00" stroke-width="1" opacity="0.5"/>
+    </g>
+    <g class="float-med">
+        <!-- Node/Spring Sphere -->
+        <circle cx="920" cy="110" r="10" fill="#6DB33F" />
+    </g>
+    <g class="float-fast" style="animation-delay: -2s;">
+        <!-- React Sphere -->
+        <circle cx="680" cy="280" r="14" fill="#61DAFB" />
+    </g>
+</svg>
