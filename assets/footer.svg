@@ -1,1 +1,29 @@
+<svg width="1000" height="160" viewBox="0 0 1000 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 700; font-size: 26px; fill: #FFFFFF; }
+        .text-muted { font-family: 'Fira Code', monospace; font-weight: 400; font-size: 14px; fill: #8B949E; }
+        
+        .wave-anim { animation: drift 12s linear infinite; }
+        .wave-anim-fast { animation: drift 8s linear infinite; }
+
+        @keyframes drift {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-1000px); }
+        }
+    </style>
+
+    <rect width="1000" height="160" fill="#0D1117" />
+
+    <!-- Animated Cyber Waves -->
+    <g opacity="0.4">
+        <!-- Back Wave (Purple) -->
+        <path class="wave-anim" d="M0 90 C 250 40, 250 140, 500 90 C 750 40, 750 140, 1000 90 C 1250 40, 1250 140, 1500 90 C 1750 40, 1750 140, 2000 90 V 160 H 0 Z" fill="rgba(138, 43, 226, 0.2)"/>
+        
+        <!-- Front Wave (Neon Blue) -->
+        <path class="wave-anim-fast" d="M0 110 C 250 70, 250 150, 500 110 C 750 70, 750 150, 1000 110 C 1250 70, 1250 150, 1500 110 C 1750 70, 1750 150, 2000 110 V 160 H 0 Z" fill="rgba(0, 240, 255, 0.2)"/>
+    </g>
+
+    <text x="500" y="60" text-anchor="middle" class="text-title">Thank You For Visiting</text>
+    <text x="500" y="95" text-anchor="middle" class="text-muted">Let's Connect &bull; Made with ❤️ by Abhay Kushwaha</text>
+</svg>
 
