@@ -1,157 +1,247 @@
 <div align="center">
-  <picture>
-    <img src="./assets/banner.svg" alt="Abhay Kushwaha Premium Banner" width="100%" />
-  </picture>
 
-  <br/><br/>
-  
-  <!-- Dynamic Typing Animation -->
-  <a href="https://github.com/Abhay924">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Java+Full+Stack;Founder+%26+CEO+%40+Nexyra+Systems;Architecting+Enterprise+Microservices;Building+AI-Powered+Applications;Open+To+Work+%7C+Class+of+2027" alt="Typing Animation" />
-  </a>
-  
-  <br/><br/>
-  
-  <!-- Professional Social Badges (Fully Linked, No Placeholders) -->
-  <a href="https://linkedin.com/in/abhay924"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:abhaykushwaha924@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://leetcode.com/Abhay924"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-  <a href="https://hackerrank.com/Abhay924"><img src="https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank"/></a>
-  <a href="https://nexyrasystems.com"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  
-  <br/><br/>
-  <!-- Dynamic Visitor Counter -->
-  <img src="https://profile-counter.glitch.me/Abhay924/count.svg" alt="Visitor Count" />
-</div>
+![Header](https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=240046,7B2CBF,9D4EDD,C77DFF&height=250&section=header&text=Abhay%20Kushwaha&fontSize=60&fontAlignY=35&desc=Software%20Engineer%20%7C%20Founder%20%26%20CEO%20@%20Nexyra%20Systems&descAlignY=55&descSize=20)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C77DFF&center=true&vCenter=true&width=800&lines=Software+Engineer;Java+Developer;Backend+Developer;Full+Stack+Developer;Open+Source+Contributor;AI+Enthusiast;Problem+Solver;Always+Learning)](https://git.io/typing-svg)
 
 <br/>
 
-## 🌌 Executive Summary
-
-I am a **Software Engineer** and final-year B.Tech CSE student (Class of 2027) based in Kanpur, specializing in high-performance backend systems and scalable full-stack architectures. I bridge the gap between complex algorithmic problem-solving (DSA) and production-ready enterprise development.
-
-As the Founder and CEO of **Nexyra Systems**, I actively lead the architectural design and deployment of robust software solutions, heavily optimizing for SEO, Lighthouse scores, and sub-second latency. I am deeply passionate about building AI-integrated support models, microservices in Java Spring Boot, and cinematic, highly responsive frontend interfaces. 
-
-- 🚀 **Core Focus:** Distributed Systems, RESTful API Design, Relational Database Management, and Cloud Deployments.
-- 🧠 **Continuous Learning:** Rigorously practicing advanced DSA (NPTEL preparations) and scaling applications via Docker & AWS.
-- 🎯 **Goal:** Seeking SDE roles at top-tier product-based companies (Google, Microsoft, Amazon, Meta) where I can contribute to mission-critical, large-scale systems.
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=5A189A&style=for-the-badge" alt="Profile Views" />
+<a href="https://github.com/YOUR_GITHUB_USERNAME?tab=followers"><img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&style=for-the-badge&color=7B2CBF&logo=github" alt="Followers" /></a>
+<a href="https://github.com/YOUR_GITHUB_USERNAME?tab=repositories"><img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?style=for-the-badge&color=9D4EDD" alt="Stars" /></a>
+<img src="https://img.shields.io/badge/Open_To_Work-Yes-C77DFF?style=for-the-badge&logo=opslevel&logoColor=white" alt="Open to Work" />
 
 <br/>
 
-## ⚙️ Engineering Arsenal
+<a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0D0221?style=for-the-badge&logo=linkedin&logoColor=C77DFF"/></a>
+<a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email-0D0221?style=for-the-badge&logo=gmail&logoColor=C77DFF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Portfolio-0D0221?style=for-the-badge&logo=vercel&logoColor=C77DFF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Resume-0D0221?style=for-the-badge&logo=googledrive&logoColor=C77DFF"/></a>
 
-<table style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td valign="top" width="50%" style="border: none;">
-      <h3>Core & Backend</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-        <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-        <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-        <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-      </p>
-    </td>
-    <td valign="top" width="50%" style="border: none;">
-      <h3>Frontend & UI/UX</h3>
-      <p>
-        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-  <tr style="border: none;">
-    <td valign="top" width="50%" style="border: none;">
-      <h3>Databases & Cloud</h3>
-      <p>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-      </p>
-    </td>
-    <td valign="top" width="50%" style="border: none;">
-      <h3>DevOps & Tools</h3>
-      <p>
-        <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-      </p>
-    </td>
-  </tr>
-</table>
+---
+
+### ✦ 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 ✦
+
+I am a software engineer focused on building scalable web applications and integrating conversational AI. Currently pursuing my B.Tech in Computer Science and Engineering, I balance my academic foundation in data structures and algorithms with hands-on experience in full-stack development. As the Founder and CEO of Nexyra Systems, I lead the development of digital solutions designed to improve business workflows. 
 
 <br/>
 
-## 📊 GitHub Analytics
+| 🎓 Education & Background | 🎯 Goals & Interests |
+| :--- | :--- |
+| **B.Tech, Computer Science & Engineering**<br>Maharana Institute of Professional Studies (2023 - 2027) | **Career Goals:** Scaling Nexyra Systems and mastering highly available distributed systems. |
+| **Current Focus:** Microservices architecture, Java backend engineering, and API design. | **Interests:** Generative AI integration, open-source development, and modern UI/UX design. |
+| **Current Learning:** Advanced System Design, Cloud Deployments, and Docker. | **Now Building:** Core backend infrastructure for Nexyra Systems. |
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Abhay924&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" />
-</div>
-
-<br/>
-
-<table align="center" style="border: none; background-color: transparent;">
-  <tr style="border: none; background-color: transparent;">
-    <td align="center" style="border: none; background-color: transparent;">
-      <img src="https://github-readme-stats.vercel.app/api?username=Abhay924&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9&icon_color=8A2BE2" alt="GitHub Stats" />
-    </td>
-    <td align="center" style="border: none; background-color: transparent;">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhay924&theme=tokyonight&hide_border=true&background=0D1117&ring=00F0FF&fire=8A2BE2&currStreakLabel=C9D1D9" alt="GitHub Streak" />
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhay924&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F0FF&text_color=C9D1D9" alt="Top Languages" />
-</div>
-
-<br/>
-
-## ⚔️ LeetCode Statistics
-
-<div align="center">
-  <img src="https://leetcard.jacoblin.cool/Abhay924?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" />
-</div>
-
-<br/>
-
-## 💻 Flagship Projects
-
-| Project / Architecture | Details & Features | Links |
-| :--- | :--- | :--- |
-| **Green Habit Ecosystem** <br/> *MERN Stack, Tailwind, Vercel* | Architected a comprehensive 29-page localized platform for Kanpur. Engineered isolated portals for NGOs, Universities, and Corporate sectors to manage and track sustainable habits securely. Implemented JWT-based role authentication and optimized MongoDB aggregations for real-time leaderboards. | [Source](https://github.com/Abhay924/green-habit) <br/> [Live](https://green-habit.vercel.app) |
-| **Nexyra Systems Dashboard** <br/> *React, Node.js, Express, MongoDB* | Developed an "MNC-level" administrative dashboard to manage cross-border B2B tech clients. Features include real-time project tracking, automated invoice generation, and SEO-optimized dynamic routing. Strict adherence to clean architecture and IBM/Accenture code quality standards. | [Source](https://github.com/Abhay924/nexyra-dashboard) <br/> [Live](https://nexyrasystems.com) |
-| **NEXA AI / Dharti MITRA** <br/> *Python, Spring Boot, OpenAI API* | Integrated generative AI models to create context-aware custom chatbots capable of bilingual (English/Hindi) customer support. Designed the Spring Boot middleware to manage rate limiting and session persistence, significantly reducing customer response times. | [Source](https://github.com/Abhay924/nexa-ai) <br/> [Live](https://nexa-ai.vercel.app) |
-| **Java Spring REST Engine** <br/> *Java, Spring Boot, MySQL, Hibernate* | Built a scalable, monolithic backend service utilizing Spring Security and RESTful principles. Engineered robust exception handling, DTO mapping, and complex native SQL queries to ensure sub-100ms API response times for financial transaction logging. | [Source](https://github.com/Abhay924/spring-rest-api) <br/> [Live](#) |
-
-<br/>
-
-## 🏆 Certifications & Achievements
-
-- 🏅 **IBM AI Fundamentals:** Certified understanding of machine learning models and AI integration.
-- 🏅 **Java Programming & DSA (NPTEL):** Advanced university-level assessment in Data Structures, Algorithms, and DBMS.
-- 🏅 **SQL Intermediate (HackerRank):** Proven ability to write complex joins and optimized subqueries.
-- 🏅 **Continuous Open Source Contributor:** Actively refactoring legacy codebases to improve Lighthouse performance metrics.
-
-<br/>
-
-## 🐍 Contribution Graph & Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake.svg">
-  </picture>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="./assets/footer.svg" alt="Animated Footer" width="100%" />
+
+### ✦ 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐀𝐫𝐬𝐞𝐧𝐚𝐥 ✦
+
+**Languages**<br/>
+<img src="https://img.shields.io/badge/Java-0D0221?style=for-the-badge&logo=java&logoColor=C77DFF"/>
+<img src="https://img.shields.io/badge/Python-0D0221?style=for-the-badge&logo=python&logoColor=C77DFF"/>
+<img src="https://img.shields.io/badge/JavaScript-0D0221?style=for-the-badge&logo=javascript&logoColor=C77DFF"/>
+<img src="https://img.shields.io/badge/TypeScript-0D0221?style=for-the-badge&logo=typescript&logoColor=C77DFF"/>
+
+<br/><br/>
+**Frontend**<br/>
+<img src="https://img.shields.io/badge/React-240046?style=for-the-badge&logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/Next.js-240046?style=for-the-badge&logo=next.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-240046?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/HTML5-240046?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-240046?style=for-the-badge&logo=css3&logoColor=white"/>
+
+<br/><br/>
+**Backend**<br/>
+<img src="https://img.shields.io/badge/Spring_Boot-5A189A?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-5A189A?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-5A189A?style=for-the-badge&logo=express&logoColor=white"/>
+
+<br/><br/>
+**Database**<br/>
+<img src="https://img.shields.io/badge/MySQL-7B2CBF?style=for-the-badge&logo=mysql&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-7B2CBF?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-7B2CBF?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-7B2CBF?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prisma-7B2CBF?style=for-the-badge&logo=prisma&logoColor=white"/>
+
+<br/><br/>
+**Cloud**<br/>
+<img src="https://img.shields.io/badge/AWS-9D4EDD?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-9D4EDD?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-9D4EDD?style=for-the-badge&logo=render&logoColor=white"/>
+
+<br/><br/>
+**DevOps**<br/>
+<img src="https://img.shields.io/badge/Docker-C77DFF?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Linux-C77DFF?style=for-the-badge&logo=linux&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-C77DFF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+
+<br/><br/>
+**Tools**<br/>
+<img src="https://img.shields.io/badge/Git-0D0221?style=for-the-badge&logo=git&logoColor=C77DFF"/>
+<img src="https://img.shields.io/badge/Postman-0D0221?style=for-the-badge&logo=postman&logoColor=C77DFF"/>
+<img src="https://img.shields.io/badge/VS_Code-0D0221?style=for-the-badge&logo=visualstudiocode&logoColor=C77DFF"/>
+<img src="https://img.shields.io/badge/Figma-0D0221?style=for-the-badge&logo=figma&logoColor=C77DFF"/>
+
+<br/><br/>
+**AI**<br/>
+<img src="https://img.shields.io/badge/OpenAI_API-240046?style=for-the-badge&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Generative_AI-240046?style=for-the-badge&logo=google&logoColor=white"/>
+
 </div>
+
+<br/>
+
+### ✦ 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬 ✦
+
+<details>
+<summary><b>🔹 Nexyra Systems Platform</b></summary>
+<br/>
+
+- **Project Name:** Nexyra Systems Official Platform
+- **Description:** The primary digital presence and operational platform for Nexyra Systems, providing client interaction features and service outlines.
+- **Tech Stack:** `Next.js` `Tailwind CSS` `Spring Boot`
+- **Architecture:** Decoupled client-server architecture utilizing RESTful APIs for efficient data delivery.
+- **Key Features:** Responsive UI, dark-theme aesthetic, optimized Lighthouse performance, and streamlined contact workflows.
+- **Current Status:** Active & Maintained
+- **Future Improvements:** Implementation of an internal dashboard for client project tracking.
+<br/>
+<a href="#"><img src="https://img.shields.io/badge/Repository-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a> <a href="#"><img src="https://img.shields.io/badge/Live_Demo-0D0221?style=for-the-badge&logo=vercel&logoColor=C77DFF"/></a>
+</details>
+
+<details>
+<summary><b>🔹 Dharti MITRA & NEXA AI</b></summary>
+<br/>
+
+- **Project Name:** AI Conversational Agents
+- **Description:** Custom chatbots integrated with generative AI models to handle customer support inquiries and domain-specific routing.
+- **Tech Stack:** `React` `Node.js` `OpenAI API`
+- **Architecture:** Event-driven backend handling asynchronous API requests to language models, paired with a lightweight frontend widget.
+- **Key Features:** Context-aware responses, conversation history tracking, and localized language support.
+- **Current Status:** Deployed
+- **Future Improvements:** Fine-tuning models on specific business documentation for improved accuracy.
+<br/>
+<a href="#"><img src="https://img.shields.io/badge/Repository-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a> <a href="#"><img src="https://img.shields.io/badge/Live_Demo-0D0221?style=for-the-badge&logo=vercel&logoColor=C77DFF"/></a>
+</details>
+
+<details>
+<summary><b>🔹 Green Habit Ecosystem</b></summary>
+<br/>
+
+- **Project Name:** Localized Habit Tracking Platform
+- **Description:** A digital application designed for tracking and managing sustainable community habits in Kanpur, featuring distinct portals for different organizational types.
+- **Tech Stack:** `Java` `Spring Boot` `MySQL` `HTML/CSS`
+- **Architecture:** Monolithic MVC architecture optimized for rapid data processing and user authentication across multiple roles.
+- **Key Features:** Multi-tier user roles (NGO, University, Corporate), habit tracking metrics, and structured reporting.
+- **Current Status:** Completed
+- **Future Improvements:** Migration to a microservices architecture to handle larger datasets.
+<br/>
+<a href="#"><img src="https://img.shields.io/badge/Repository-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a>
+</details>
+
+<br/>
+
+<div align="center">
+
+### ✦ 𝐆𝐢𝐭𝐇𝐮𝐛 𝐀𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬 ✦
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0221&title_color=9D4EDD&text_color=E0AAFF&icon_color=C77DFF&include_all_commits=true" alt="GitHub Stats" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0221&title_color=9D4EDD&text_color=E0AAFF" alt="Top Languages" width="48%" />
+
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D0221&ring=C77DFF&fire=9D4EDD&currStreakNum=E0AAFF" alt="GitHub Streak" width="48%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_GITHUB_USERNAME&theme=tokyonight&bg_color=0D0221&title_color=9D4EDD&text_color=E0AAFF" alt="Profile Summary" width="48%"/>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+<br/><br/>
+
+<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15&column=7" alt="Trophies" /></a>
+
+<br/><br/>
+
+<!-- Using metrics placeholder as it requires specific repository setup -->
+<img src="https://metrics.lecoq.io/YOUR_GITHUB_USERNAME?template=classic&config.timezone=Asia%2FKolkata" alt="GitHub Metrics" width="100%"/>
+
+</div>
+
+<br/>
+
+### ✦ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐖𝐨𝐫𝐤𝐟𝐥𝐨𝐰 & 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐥𝐞𝐬 ✦
+
+| ⚙️ Environment | 🛠️ Daily Workflow | 📝 Coding Principles | 💡 Fun Facts |
+| :--- | :--- | :--- | :--- |
+| **OS:** Linux / Windows<br>**IDE:** VS Code<br>**Terminal:** Bash / Zsh<br>**Version Control:** Git | **1.** Plan architecture<br>**2.** Write standard code<br>**3.** Local testing<br>**4.** Push & Deploy | - Keep it Simple<br>- Write readable code<br>- Favor modularity<br>- Document APIs | - I enjoy exploring system administration.<br>- I optimize for terminal efficiency. |
+
+<br/>
+
+### ✦ 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 & 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 ✦
+
+- **Java Programming (NPTEL)** - Focused on core Java concepts, object-oriented principles, and standard library utilization.
+- **Database Management Systems (NPTEL)** - Covered relational database design, SQL queries, and normalization techniques.
+- **Research Interests:** Scalability in microservices, practical implementations of generative AI in customer support, and robust API design methodologies. 
+
+<br/>
+
+<div align="center">
+
+### ✦ 𝐋𝐞𝐭'𝐬 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 ✦
+
+<a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email_Me-0D0221?style=for-the-badge&logo=gmail&logoColor=C77DFF"/></a>
+<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0D0221?style=for-the-badge&logo=linkedin&logoColor=C77DFF"/></a>
+<a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a>
+<a href="#"><img src="https://img.shields.io/badge/Portfolio-0D0221?style=for-the-badge&logo=vercel&logoColor=C77DFF"/></a>
+
+<br/><br/>
+
+![Footer](https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=240046,7B2CBF,9D4EDD,C77DFF&height=120&section=footer)
+<br/>
+<sub><i>Thanks for visiting.</i></sub>
+
+</div>
+
+<br/>
+
+---
+
+<details>
+<summary><b>⚙️ GitHub Actions Setup Workflows</b></summary>
+
+**Snake Animation Workflow (`.github/workflows/snake.yml`)**
+```yaml
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
