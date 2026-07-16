@@ -1,247 +1,292 @@
+
+
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=240046,7B2CBF,9D4EDD,C77DFF&height=250&section=header&text=Abhay%20Kushwaha&fontSize=60&fontAlignY=35&desc=Software%20Engineer%20%7C%20Founder%20%26%20CEO%20@%20Nexyra%20Systems&descAlignY=55&descSize=20)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=C77DFF&center=true&vCenter=true&width=800&lines=Software+Engineer;Java+Developer;Backend+Developer;Full+Stack+Developer;Open+Source+Contributor;AI+Enthusiast;Problem+Solver;Always+Learning)](https://git.io/typing-svg)
+<img src="./assets/hero-banner.svg" width="100%" alt="Abhay Kushwaha — Software Engineer" />
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=5A189A&style=for-the-badge" alt="Profile Views" />
-<a href="https://github.com/YOUR_GITHUB_USERNAME?tab=followers"><img src="https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Followers&style=for-the-badge&color=7B2CBF&logo=github" alt="Followers" /></a>
-<a href="https://github.com/YOUR_GITHUB_USERNAME?tab=repositories"><img src="https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?style=for-the-badge&color=9D4EDD" alt="Stars" /></a>
-<img src="https://img.shields.io/badge/Open_To_Work-Yes-C77DFF?style=for-the-badge&logo=opslevel&logoColor=white" alt="Open to Work" />
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abhay924)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhay-kushwaha-715b20305)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhaykushwaha06@gmail.com)
 
-<br/>
-
-<a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a>
-<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0D0221?style=for-the-badge&logo=linkedin&logoColor=C77DFF"/></a>
-<a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email-0D0221?style=for-the-badge&logo=gmail&logoColor=C77DFF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-0D0221?style=for-the-badge&logo=vercel&logoColor=C77DFF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Resume-0D0221?style=for-the-badge&logo=googledrive&logoColor=C77DFF"/></a>
-
----
-
-### ✦ 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 ✦
-
-I am a software engineer focused on building scalable web applications and integrating conversational AI. Currently pursuing my B.Tech in Computer Science and Engineering, I balance my academic foundation in data structures and algorithms with hands-on experience in full-stack development. As the Founder and CEO of Nexyra Systems, I lead the development of digital solutions designed to improve business workflows. 
-
-<br/>
-
-| 🎓 Education & Background | 🎯 Goals & Interests |
-| :--- | :--- |
-| **B.Tech, Computer Science & Engineering**<br>Maharana Institute of Professional Studies (2023 - 2027) | **Career Goals:** Scaling Nexyra Systems and mastering highly available distributed systems. |
-| **Current Focus:** Microservices architecture, Java backend engineering, and API design. | **Interests:** Generative AI integration, open-source development, and modern UI/UX design. |
-| **Current Learning:** Advanced System Design, Cloud Deployments, and Docker. | **Now Building:** Core backend infrastructure for Nexyra Systems. |
+<sub>📍 Kanpur, Uttar Pradesh, India &nbsp;·&nbsp; 🎓 Final Year B.Tech CSE, Graduating 2027</sub>
 
 </div>
 
 <br/>
 
 <div align="center">
+<img src="./assets/cyber-dashboard.svg" width="100%" alt="Engineering Status Bar" />
+</div>
 
-### ✦ 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐀𝐫𝐬𝐞𝐧𝐚𝐥 ✦
-
-**Languages**<br/>
-<img src="https://img.shields.io/badge/Java-0D0221?style=for-the-badge&logo=java&logoColor=C77DFF"/>
-<img src="https://img.shields.io/badge/Python-0D0221?style=for-the-badge&logo=python&logoColor=C77DFF"/>
-<img src="https://img.shields.io/badge/JavaScript-0D0221?style=for-the-badge&logo=javascript&logoColor=C77DFF"/>
-<img src="https://img.shields.io/badge/TypeScript-0D0221?style=for-the-badge&logo=typescript&logoColor=C77DFF"/>
+<sub>Rendered once at page load — primary stack, active project count, and current learning focus in a single glance instead of scattered across badge rows.</sub>
 
 <br/><br/>
-**Frontend**<br/>
-<img src="https://img.shields.io/badge/React-240046?style=for-the-badge&logo=react&logoColor=white"/>
-<img src="https://img.shields.io/badge/Next.js-240046?style=for-the-badge&logo=next.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-240046?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-240046?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-240046?style=for-the-badge&logo=css3&logoColor=white"/>
 
-<br/><br/>
-**Backend**<br/>
-<img src="https://img.shields.io/badge/Spring_Boot-5A189A?style=for-the-badge&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/Node.js-5A189A?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express-5A189A?style=for-the-badge&logo=express&logoColor=white"/>
+##  System Identity
 
-<br/><br/>
-**Database**<br/>
-<img src="https://img.shields.io/badge/MySQL-7B2CBF?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-7B2CBF?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MongoDB-7B2CBF?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-7B2CBF?style=for-the-badge&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Prisma-7B2CBF?style=for-the-badge&logo=prisma&logoColor=white"/>
+<img src="./assets/developer-terminal.svg" width="100%" alt="Developer Terminal" />
 
-<br/><br/>
-**Cloud**<br/>
-<img src="https://img.shields.io/badge/AWS-9D4EDD?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-9D4EDD?style=for-the-badge&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-9D4EDD?style=for-the-badge&logo=render&logoColor=white"/>
+<br/>
 
-<br/><br/>
-**DevOps**<br/>
-<img src="https://img.shields.io/badge/Docker-C77DFF?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-C77DFF?style=for-the-badge&logo=linux&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-C77DFF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+##  About
 
-<br/><br/>
-**Tools**<br/>
-<img src="https://img.shields.io/badge/Git-0D0221?style=for-the-badge&logo=git&logoColor=C77DFF"/>
-<img src="https://img.shields.io/badge/Postman-0D0221?style=for-the-badge&logo=postman&logoColor=C77DFF"/>
-<img src="https://img.shields.io/badge/VS_Code-0D0221?style=for-the-badge&logo=visualstudiocode&logoColor=C77DFF"/>
-<img src="https://img.shields.io/badge/Figma-0D0221?style=for-the-badge&logo=figma&logoColor=C77DFF"/>
+<table>
+<tr>
+<td width="58%" valign="top">
 
-<br/><br/>
-**AI**<br/>
-<img src="https://img.shields.io/badge/OpenAI_API-240046?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Generative_AI-240046?style=for-the-badge&logo=google&logoColor=white"/>
+I'm a Computer Science Engineering student focused on **backend engineering**, **full-stack development**, and **software architecture** — Java and Spring Boot as my primary toolkit, React/Next.js on the front end.
 
+My priority is writing clean, maintainable code and shipping real systems, while continuously sharpening **DSA**, **system design**, and engineering fundamentals.
+
+<br/>
+
+| | |
+|---|---|
+| 🔭 **Building** | CareerOS AI — an AI-powered career operating system |
+| 🌱 **Deepening** | Spring Boot internals, distributed system design, Docker/K8s |
+| 💬 **Ask me about** | Java, backend architecture, microservices, full-stack systems |
+| 📫 **Reach me** | abhaykushwaha06@gmail.com |
+| 🎓 **Graduating** | 2027 — B.Tech, Computer Science Engineering |
+
+</td>
+<td width="42%" valign="top">
+
+<img src="./assets/ai-core.svg" width="100%" alt="AI Core" />
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+##  Infrastructure Overview
+
+<img src="./assets/network-architecture.svg" width="100%" alt="Infrastructure Overview" />
+
+<sub>General pattern I build with across projects — decoupled frontend, an API layer, service logic, persistent storage, containerized where applicable. Representative, not a diagram of one specific deployed system.</sub>
+
+<br/>
+
+##  Technology Stack
+
+<img src="./assets/tech-stack.svg" width="100%" alt="Tech Stack" />
+
+<table align="center">
+<tr>
+<td valign="top" width="25%">
+
+**Languages**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+</td>
+<td valign="top" width="25%">
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+
+</td>
+<td valign="top" width="25%">
+
+**Backend**
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![REST](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logo=fastapi&logoColor=white)
+
+</td>
+<td valign="top" width="25%">
+
+**Data & DevOps**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<sub><b>Tooling:</b> Git · GitHub Actions · VS Code · IntelliJ IDEA · Postman · Render · Vercel · Linux</sub>
 </div>
 
 <br/>
 
-### ✦ 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬 ✦
+##  Projects
 
-<details>
-<summary><b>🔹 Nexyra Systems Platform</b></summary>
-<br/>
+<table>
+<tr>
+<td width="100%" valign="top">
 
-- **Project Name:** Nexyra Systems Official Platform
-- **Description:** The primary digital presence and operational platform for Nexyra Systems, providing client interaction features and service outlines.
-- **Tech Stack:** `Next.js` `Tailwind CSS` `Spring Boot`
-- **Architecture:** Decoupled client-server architecture utilizing RESTful APIs for efficient data delivery.
-- **Key Features:** Responsive UI, dark-theme aesthetic, optimized Lighthouse performance, and streamlined contact workflows.
-- **Current Status:** Active & Maintained
-- **Future Improvements:** Implementation of an internal dashboard for client project tracking.
-<br/>
-<a href="#"><img src="https://img.shields.io/badge/Repository-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a> <a href="#"><img src="https://img.shields.io/badge/Live_Demo-0D0221?style=for-the-badge&logo=vercel&logoColor=C77DFF"/></a>
-</details>
+### 🧠 CareerOS AI — Flagship Project
+Global AI-powered career operating system — ten specialized agents covering resume generation, ATS analysis, company research, interview prep, and skill-gap analysis.
 
-<details>
-<summary><b>🔹 Dharti MITRA & NEXA AI</b></summary>
-<br/>
+`Next.js` `Fastify / TypeScript` `PostgreSQL` `Prisma` `Redis` `BullMQ` `AI APIs`
+**Status:** 🟢 Active Development
 
-- **Project Name:** AI Conversational Agents
-- **Description:** Custom chatbots integrated with generative AI models to handle customer support inquiries and domain-specific routing.
-- **Tech Stack:** `React` `Node.js` `OpenAI API`
-- **Architecture:** Event-driven backend handling asynchronous API requests to language models, paired with a lightweight frontend widget.
-- **Key Features:** Context-aware responses, conversation history tracking, and localized language support.
-- **Current Status:** Deployed
-- **Future Improvements:** Fine-tuning models on specific business documentation for improved accuracy.
-<br/>
-<a href="#"><img src="https://img.shields.io/badge/Repository-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a> <a href="#"><img src="https://img.shields.io/badge/Live_Demo-0D0221?style=for-the-badge&logo=vercel&logoColor=C77DFF"/></a>
-</details>
+[Full case study →](./.github/profile/projects.md#careeros-ai) &nbsp;|&nbsp; 🔒 Private repository
 
-<details>
-<summary><b>🔹 Green Habit Ecosystem</b></summary>
-<br/>
-
-- **Project Name:** Localized Habit Tracking Platform
-- **Description:** A digital application designed for tracking and managing sustainable community habits in Kanpur, featuring distinct portals for different organizational types.
-- **Tech Stack:** `Java` `Spring Boot` `MySQL` `HTML/CSS`
-- **Architecture:** Monolithic MVC architecture optimized for rapid data processing and user authentication across multiple roles.
-- **Key Features:** Multi-tier user roles (NGO, University, Corporate), habit tracking metrics, and structured reporting.
-- **Current Status:** Completed
-- **Future Improvements:** Migration to a microservices architecture to handle larger datasets.
-<br/>
-<a href="#"><img src="https://img.shields.io/badge/Repository-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a>
-</details>
+</td>
+</tr>
+</table>
 
 <br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌱 Green Habit Tracker
+Sustainability and habit-tracking platform — user dashboards, CO₂ tracking, leaderboard, and NGO support.
+
+`HTML` `CSS` `JavaScript` `Firebase` `Node.js` `MySQL`
+**Status:** ✅ Completed
+
+[Repository →](https://github.com/Abhay924/Green-Habit-) &nbsp;|&nbsp; [Case study →](./.github/profile/projects.md#green-habit-tracker)
+
+</td>
+<td width="50%" valign="top">
+
+### 🥛 Smart Dairy Store
+Inventory and dairy management app — authentication, product management, payment integration, admin dashboard.
+
+`React Native` `Node.js` `Express.js` `MongoDB` `Firebase` `Razorpay`
+**Status:** 🟡 In Development
+
+[Case study →](./.github/profile/projects.md#smart-dairy-store) &nbsp;|&nbsp; 🔒 Private repository
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛒 E-Commerce Microservices Platform
+14-service backend — Spring Boot, Keycloak auth, event-driven order flow via Kafka, full observability stack.
+
+`Java 21` `Spring Boot 3` `Kafka` `Redis` `Elasticsearch` `Docker`
+**Status:** ✅ Completed
+
+[Case study →](./.github/profile/projects.md#ecommerce-microservices-platform) &nbsp;|&nbsp; 🔒 Private repository
+
+</td>
+<td width="50%" valign="top">
+
+### 🏢 Nexyra Systems Website
+Software company website — service showcase, AI chatbot integration, premium responsive UI.
+
+`Next.js` `React` `Tailwind CSS` `Node.js` `MongoDB` `OpenAI API`
+**Status:** 🟢 Active
+
+[Live site →](https://nexyrasystems.com) &nbsp;|&nbsp; [Case study →](./.github/profile/projects.md#nexyra-systems-website)
+
+</td>
+</tr>
+</table>
+
+<sub>Each case study covers architecture, folder structure, challenges, lessons learned, and roadmap — in <a href="./.github/profile/projects.md"><code>projects.md</code></a>.</sub>
+
+<br/>
+
+##  Architecture References
+
+<table align="center">
+<tr>
+<td align="center" width="25%">📐<br/><b><a href="./.github/diagrams/system-design.md">System Design</a></b></td>
+<td align="center" width="25%">⚙️<br/><b><a href="./.github/diagrams/backend-architecture.md">Backend Architecture</a></b></td>
+<td align="center" width="25%">🚀<br/><b><a href="./.github/diagrams/deployment-flow.md">Deployment Flow</a></b></td>
+<td align="center" width="25%">🌐<br/><b><a href="./.github/diagrams/network-topology.md">Network Topology</a></b></td>
+</tr>
+</table>
+
+<br/>
+
+##  Engineering Analytics
+
+<img src="https://github-readme-stats.vercel.app/api?username=Abhay924&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=A78BFA&text_color=C9D1D9" width="49%" alt="GitHub Stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhay924&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="49%" alt="Top Languages" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhay924&theme=radical&hide_border=true&background=0D1117&stroke=A78BFA&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" width="100%" alt="GitHub Streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhay924&theme=react-dark&hide_border=true&bg_color=0D1117&color=A78BFA&line=A78BFA&point=FFFFFF" width="100%" alt="Recent Activity" />
+
+<img src="./.github/metrics/coding-habits.svg" width="49%" alt="Coding Habits" />
+<img src="./.github/metrics/contribution-metrics.svg" width="49%" alt="Contribution Insights" />
+
+<div align="center">
+<sub>All figures above are rendered live by official GitHub stats services or generated by the <code>metrics.yml</code> workflow — nothing on this page is hardcoded.</sub>
+</div>
+
+<br/>
+
+##  Engineering Timeline
+
+<img src="./assets/timeline.svg" width="100%" alt="Engineering Timeline" />
+
+| Year | Milestone |
+|---|---|
+| **2023** | Started learning programming and web development |
+| **2024** | Built multiple frontend and backend projects; strengthened Java fundamentals |
+| **2025** | Began building full-stack applications, AI integrations, and scalable backend systems |
+| **2026** | Built CareerOS AI, the e-commerce microservices platform, Green Habit Tracker, Smart Dairy Store, and Nexyra Systems — while preparing for software engineering roles |
+
+<br/>
+
+##  Learning Roadmap
+
+- [x] Java fundamentals and object-oriented design
+- [x] Full-stack development with React and Node.js
+- [x] Spring Boot — building production-style microservices
+- [ ] System Design — deepening scalable architecture patterns
+- [ ] Cloud & CI/CD — AWS, Kubernetes in production contexts
+- [ ] Contributing to open-source Java / Spring projects
+
+<br/>
+
+##  Certifications
+
+<table align="center">
+<tr>
+<td align="center" width="20%">☁️<br/><b>IBM AI Fundamentals</b></td>
+<td align="center" width="20%">🗄️<br/><b>SQL (Intermediate)</b><br/><sub>HackerRank</sub></td>
+<td align="center" width="20%">☕<br/><b>Java Programming</b></td>
+<td align="center" width="20%">🤖<br/><b>AI Foundation</b></td>
+<td align="center" width="20%">🧩<br/><b>Full Stack Development</b></td>
+</tr>
+</table>
+
+<sub>Issuers and dates shown only where verifiable.</sub>
+
+<br/>
+
+##  Contact
 
 <div align="center">
 
-### ✦ 𝐆𝐢𝐭𝐇𝐮𝐛 𝐀𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬 ✦
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0221&title_color=9D4EDD&text_color=E0AAFF&icon_color=C77DFF&include_all_commits=true" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0221&title_color=9D4EDD&text_color=E0AAFF" alt="Top Languages" width="48%" />
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D0221&ring=C77DFF&fire=9D4EDD&currStreakNum=E0AAFF" alt="GitHub Streak" width="48%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=YOUR_GITHUB_USERNAME&theme=tokyonight&bg_color=0D0221&title_color=9D4EDD&text_color=E0AAFF" alt="Profile Summary" width="48%"/>
-
-<br/><br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="100%">
-</picture>
-
-<br/><br/>
-
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=tokyonight&no-bg=true&no-frame=true&margin-w=15&column=7" alt="Trophies" /></a>
-
-<br/><br/>
-
-<!-- Using metrics placeholder as it requires specific repository setup -->
-<img src="https://metrics.lecoq.io/YOUR_GITHUB_USERNAME?template=classic&config.timezone=Asia%2FKolkata" alt="GitHub Metrics" width="100%"/>
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abhay924)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhay-kushwaha-715b20305)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhaykushwaha06@gmail.com)
 
 </div>
 
 <br/>
 
-### ✦ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 𝐖𝐨𝐫𝐤𝐟𝐥𝐨𝐰 & 𝐏𝐫𝐢𝐧𝐜𝐢𝐩𝐥𝐞𝐬 ✦
-
-| ⚙️ Environment | 🛠️ Daily Workflow | 📝 Coding Principles | 💡 Fun Facts |
-| :--- | :--- | :--- | :--- |
-| **OS:** Linux / Windows<br>**IDE:** VS Code<br>**Terminal:** Bash / Zsh<br>**Version Control:** Git | **1.** Plan architecture<br>**2.** Write standard code<br>**3.** Local testing<br>**4.** Push & Deploy | - Keep it Simple<br>- Write readable code<br>- Favor modularity<br>- Document APIs | - I enjoy exploring system administration.<br>- I optimize for terminal efficiency. |
-
-<br/>
-
-### ✦ 𝐂𝐞𝐫𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 & 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 ✦
-
-- **Java Programming (NPTEL)** - Focused on core Java concepts, object-oriented principles, and standard library utilization.
-- **Database Management Systems (NPTEL)** - Covered relational database design, SQL queries, and normalization techniques.
-- **Research Interests:** Scalability in microservices, practical implementations of generative AI in customer support, and robust API design methodologies. 
-
-<br/>
+<img src="./assets/footer-wave.svg" width="100%" alt="Footer" />
 
 <div align="center">
-
-### ✦ 𝐋𝐞𝐭'𝐬 𝐂𝐨𝐧𝐧𝐞𝐜𝐭 ✦
-
-<a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email_Me-0D0221?style=for-the-badge&logo=gmail&logoColor=C77DFF"/></a>
-<a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0D0221?style=for-the-badge&logo=linkedin&logoColor=C77DFF"/></a>
-<a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-0D0221?style=for-the-badge&logo=github&logoColor=C77DFF"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-0D0221?style=for-the-badge&logo=vercel&logoColor=C77DFF"/></a>
-
-<br/><br/>
-
-![Footer](https://capsule-render.vercel.app/api?type=wave&color=gradient&customColorList=240046,7B2CBF,9D4EDD,C77DFF&height=120&section=footer)
+<sub>⚡ Built with handcrafted SVG dashboards and zero fabricated metrics.</sub>
 <br/>
-<sub><i>Thanks for visiting.</i></sub>
-
+<sub>🔄 Auto-synced via GitHub Actions — see <code>.github/workflows/</code></sub>
 </div>
-
-<br/>
-
----
-
-<details>
-<summary><b>⚙️ GitHub Actions Setup Workflows</b></summary>
-
-**Snake Animation Workflow (`.github/workflows/snake.yml`)**
-```yaml
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
