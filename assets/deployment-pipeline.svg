@@ -1,0 +1,652 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%">
+  <defs>
+    <!-- Dark Luxury Background Gradients -->
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04010a" />
+      <stop offset="30%" stop-color="#080115" />
+      <stop offset="70%" stop-color="#0d0220" />
+      <stop offset="100%" stop-color="#18033b" />
+    </linearGradient>
+
+    <!-- Neon Purple Gradients -->
+    <linearGradient id="neon-primary" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7B2CBF" />
+      <stop offset="50%" stop-color="#C77DFF" />
+      <stop offset="100%" stop-color="#9D4EDD" />
+    </linearGradient>
+
+    <linearGradient id="neon-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+
+    <!-- Glassmorphism Edge & Reflection Gradients -->
+    <linearGradient id="glass-edge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(199, 125, 255, 0.7)" />
+      <stop offset="40%" stop-color="rgba(199, 125, 255, 0.05)" />
+      <stop offset="60%" stop-color="rgba(199, 125, 255, 0.05)" />
+      <stop offset="100%" stop-color="rgba(199, 125, 255, 0.4)" />
+    </linearGradient>
+    
+    <linearGradient id="glass-edge-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0, 242, 254, 0.7)" />
+      <stop offset="50%" stop-color="rgba(0, 242, 254, 0.05)" />
+      <stop offset="100%" stop-color="rgba(0, 242, 254, 0.4)" />
+    </linearGradient>
+
+    <linearGradient id="glass-reflection" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255, 255, 255, 0.1)" />
+      <stop offset="30%" stop-color="rgba(255, 255, 255, 0.01)" />
+      <stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+    </linearGradient>
+
+    <!-- Filters for Depth and Glow -->
+    <filter id="glass-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -8" result="glow" />
+      <feComposite in="SourceGraphic" in2="glow" operator="over" />
+    </filter>
+
+    <filter id="ambient-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="15" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="ambient-glow-intense" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="25" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="core-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="drop-shadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="15" stdDeviation="20" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Grid Patterns -->
+    <pattern id="hex-grid" width="40" height="69.282" patternUnits="userSpaceOnUse" patternTransform="scale(0.6)">
+      <path d="M 40 17.3205 L 20 5.7735 L 0 17.3205 L 0 40.4145 L 20 51.9615 L 40 40.4145 Z" fill="none" stroke="rgba(199, 125, 255, 0.05)" stroke-width="1"/>
+      <path d="M 20 51.9615 L 20 75.0555 L 40 86.6025 L 60 75.0555 L 60 51.9615 L 40 40.4145 Z" fill="none" stroke="rgba(199, 125, 255, 0.05)" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1.5" fill="rgba(199, 125, 255, 0.15)" />
+    </pattern>
+
+    <pattern id="micro-circuit" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 10 10 L 30 10 L 40 20 L 40 40 M 60 90 L 60 70 L 70 60 L 90 60" fill="none" stroke="rgba(199, 125, 255, 0.04)" stroke-width="1"/>
+      <circle cx="10" cy="10" r="1.5" fill="rgba(199, 125, 255, 0.08)"/>
+      <circle cx="90" cy="60" r="1.5" fill="rgba(199, 125, 255, 0.08)"/>
+    </pattern>
+
+    <!-- Animations -->
+    <style>
+      .text-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 800; fill: #ffffff; letter-spacing: 2px; }
+      .text-header { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-weight: 700; fill: #ffffff; font-size: 15px; letter-spacing: 2.5px; }
+      .text-tag { font-family: "Fira Code", monospace; font-weight: 500; font-size: 12px; fill: #E0AAFF; }
+      .text-mono { font-family: "Fira Code", monospace; font-weight: 400; fill: #C77DFF; }
+      .text-glow { filter: url(#ambient-glow); }
+
+      /* Core Transforms - Adjusted for Center at (800, 420) */
+      @keyframes pulse-core {
+        0%, 100% { transform: scale(1); opacity: 0.85; }
+        50% { transform: scale(1.08); opacity: 1; }
+      }
+      @keyframes spin-slow {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes spin-reverse {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      @keyframes flow-line {
+        to { stroke-dashoffset: -100; }
+      }
+      @keyframes packet-move {
+        0% { stroke-dashoffset: 600; opacity: 0; }
+        15% { opacity: 1; }
+        85% { opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 0; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes float-delay {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes float-delay-2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-12px); }
+      }
+      @keyframes scan-line {
+        0% { transform: translateY(-1000px); }
+        100% { transform: translateY(1000px); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+      @keyframes particle-drift {
+        0% { transform: translate(0, 0) scale(1); opacity: 0; }
+        50% { transform: translate(25px, -25px) scale(1.8); opacity: 0.9; }
+        100% { transform: translate(50px, -50px) scale(1); opacity: 0; }
+      }
+      @keyframes orbit-particle {
+        from { transform: rotate(0deg) translateX(120px) rotate(0deg); }
+        to { transform: rotate(360deg) translateX(120px) rotate(-360deg); }
+      }
+
+      .core-pulse { animation: pulse-core 4s ease-in-out infinite; transform-origin: 800px 420px; }
+      .ring-1 { animation: spin-slow 25s linear infinite; transform-origin: 800px 420px; }
+      .ring-2 { animation: spin-reverse 30s linear infinite; transform-origin: 800px 420px; }
+      .ring-3 { animation: spin-slow 18s linear infinite; transform-origin: 800px 420px; }
+      .ring-4 { animation: spin-reverse 40s linear infinite; transform-origin: 800px 420px; }
+      .ring-5 { animation: spin-slow 60s linear infinite; transform-origin: 800px 420px; }
+
+      .wire-path { fill: none; stroke: rgba(199, 125, 255, 0.25); stroke-width: 2.5; stroke-linecap: round; }
+      .wire-glow { fill: none; stroke: url(#neon-primary); stroke-width: 2.5; stroke-dasharray: 8 16; animation: flow-line 2s linear infinite; filter: url(#ambient-glow); stroke-linecap: round; }
+      
+      .data-packet { fill: none; stroke: #00f2fe; stroke-width: 5; stroke-linecap: round; stroke-dasharray: 20 600; animation: packet-move 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite; filter: url(#ambient-glow-intense); }
+      .data-packet-rev { fill: none; stroke: #C77DFF; stroke-width: 5; stroke-linecap: round; stroke-dasharray: 20 600; animation: packet-move 4.5s cubic-bezier(0.4, 0, 0.2, 1) infinite reverse; filter: url(#ambient-glow-intense); }
+
+      .glass-card { animation: float 7s ease-in-out infinite; filter: url(#drop-shadow); }
+      .glass-card-delay { animation: float-delay 7s ease-in-out 3.5s infinite; filter: url(#drop-shadow); }
+      .glass-card-delay-2 { animation: float-delay-2 8s ease-in-out 1.5s infinite; filter: url(#drop-shadow); }
+      
+      .scan-overlay { animation: scan-line 12s linear infinite; }
+      .status-dot { animation: blink 2.5s infinite; }
+    </style>
+  </defs>
+
+  <!-- ========================================== -->
+  <!-- BACKGROUND & ENVIRONMENT                   -->
+  <!-- ========================================== -->
+  <rect width="1600" height="1000" fill="url(#bg-gradient)" />
+  <rect width="1600" height="1000" fill="url(#hex-grid)" opacity="0.8" />
+  <rect width="1600" height="1000" fill="url(#dot-grid)" opacity="0.5" />
+  <rect width="1600" height="1000" fill="url(#micro-circuit)" opacity="0.7" />
+
+  <!-- Advanced Circuit Lines in Background -->
+  <g stroke="rgba(199, 125, 255, 0.15)" stroke-width="1.5" fill="none">
+    <path d="M 0 150 L 250 150 L 320 220 L 320 1000" />
+    <path d="M 1600 250 L 1450 250 L 1380 320 L 1380 1000" />
+    <path d="M 0 750 L 150 750 L 220 820 L 1600 820" />
+    <path d="M 400 0 L 400 80 L 480 160 L 1120 160 L 1200 80 L 1200 0" />
+    
+    <!-- Fine traces -->
+    <path d="M 0 170 L 230 170 L 300 240 L 300 1000" stroke-width="0.5" />
+    <path d="M 1600 270 L 1430 270 L 1360 340 L 1360 1000" stroke-width="0.5" />
+  </g>
+
+  <!-- Ambient Depth Orbs for Immersive Lighting -->
+  <circle cx="800" cy="420" r="500" fill="#7B2CBF" filter="url(#core-glow)" opacity="0.08" />
+  <circle cx="200" cy="250" r="350" fill="#5A189A" filter="url(#core-glow)" opacity="0.06" />
+  <circle cx="1400" cy="250" r="350" fill="#00f2fe" filter="url(#core-glow)" opacity="0.04" />
+  <circle cx="800" cy="850" r="400" fill="#9D4EDD" filter="url(#core-glow)" opacity="0.07" />
+
+  <!-- Animated Scan Line -->
+  <g opacity="0.12" class="scan-overlay">
+    <rect x="0" y="0" width="1600" height="200" fill="url(#neon-primary)" opacity="0.15" />
+    <rect x="0" y="200" width="1600" height="3" fill="#C77DFF" filter="url(#ambient-glow)" />
+  </g>
+
+  <!-- ========================================== -->
+  <!-- HUD BORDERS & METADATA                     -->
+  <!-- ========================================== -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="5" height="50" fill="url(#neon-primary)" filter="url(#ambient-glow-intense)" />
+    <text x="25" y="20" class="text-mono" font-size="13" opacity="0.8">ARCHITECTURE // DASHBOARD // V.4.0.1</text>
+    <text x="25" y="45" class="text-title" font-size="28">ENGINEERING ECOSYSTEM</text>
+  </g>
+
+  <g transform="translate(1320, 60)">
+    <text x="220" y="20" text-anchor="end" class="text-mono" font-size="12" opacity="0.7">STATUS: OPTIMAL</text>
+    <text x="220" y="42" text-anchor="end" class="text-mono" font-size="12" opacity="0.7">LATENCY: &lt;1MS</text>
+    <circle cx="235" cy="16" r="4" fill="#00f2fe" class="status-dot" filter="url(#ambient-glow)"/>
+  </g>
+
+  <!-- Premium Tech Brackets -->
+  <g stroke="rgba(199, 125, 255, 0.5)" stroke-width="2.5" fill="none">
+    <path d="M 30 30 L 80 30 M 30 30 L 30 80" />
+    <path d="M 1570 30 L 1520 30 M 1570 30 L 1570 80" />
+    <path d="M 30 970 L 80 970 M 30 970 L 30 920" />
+    <path d="M 1570 970 L 1520 970 M 1570 970 L 1570 920" />
+    <!-- Inner Accent dots -->
+    <circle cx="30" cy="30" r="3" fill="#C77DFF" stroke="none" />
+    <circle cx="1570" cy="30" r="3" fill="#C77DFF" stroke="none" />
+    <circle cx="30" cy="970" r="3" fill="#C77DFF" stroke="none" />
+    <circle cx="1570" cy="970" r="3" fill="#C77DFF" stroke="none" />
+  </g>
+
+  <!-- ========================================== -->
+  <!-- CONNECTION NETWORK (WIRES)                 -->
+  <!-- ========================================== -->
+  <!-- Base paths radiating from Engineering Core at (800, 420) -->
+  <g id="network-wires">
+    <!-- To Backend (Top) at (800, 240) -->
+    <path id="wire-backend" d="M 800 420 L 800 240" class="wire-path" />
+    <path d="M 800 420 L 800 240" class="wire-glow" />
+    <path d="M 800 420 L 800 240" class="data-packet" style="animation-delay: 0s;" />
+    <path d="M 800 420 L 800 240" class="data-packet-rev" style="animation-delay: 1.5s;" />
+    <!-- Connector Node -->
+    <circle cx="800" cy="240" r="6" fill="#04010a" stroke="url(#neon-primary)" stroke-width="2" />
+
+    <!-- To Frontend (Left) at (460, 350) -->
+    <path id="wire-frontend" d="M 800 420 C 650 420, 520 420, 460 350" class="wire-path" />
+    <path d="M 800 420 C 650 420, 520 420, 460 350" class="wire-glow" />
+    <path d="M 800 420 C 650 420, 520 420, 460 350" class="data-packet" style="animation-delay: 0.8s;" />
+    <circle cx="460" cy="350" r="6" fill="#04010a" stroke="url(#neon-primary)" stroke-width="2" />
+
+    <!-- To AI (Right) at (1140, 350) -->
+    <path id="wire-ai" d="M 800 420 C 950 420, 1080 420, 1140 350" class="wire-path" />
+    <path d="M 800 420 C 950 420, 1080 420, 1140 350" class="wire-glow" />
+    <path d="M 800 420 C 950 420, 1080 420, 1140 350" class="data-packet" style="animation-delay: 1.2s;" />
+    <path d="M 800 420 C 950 420, 1080 420, 1140 350" class="data-packet-rev" style="animation-delay: 2.2s;" />
+    <circle cx="1140" cy="350" r="6" fill="#04010a" stroke="url(#neon-primary)" stroke-width="2" />
+
+    <!-- To Infra (Bottom) at (800, 640) -->
+    <path id="wire-infra" d="M 800 420 L 800 640" class="wire-path" />
+    <path d="M 800 420 L 800 640" class="wire-glow" />
+    <path d="M 800 420 L 800 640" class="data-packet" style="animation-delay: 0.5s;" />
+    <circle cx="800" cy="640" r="6" fill="#04010a" stroke="url(#neon-primary)" stroke-width="2" />
+    
+    <!-- Cross Connections between cards for ecosystem feel -->
+    <path d="M 460 350 C 500 240, 600 140, 630 140" class="wire-path" stroke-dasharray="5 5" opacity="0.6"/>
+    <path d="M 1140 350 C 1100 240, 1000 140, 970 140" class="wire-path" stroke-dasharray="5 5" opacity="0.6"/>
+    <path d="M 460 350 C 460 500, 520 640, 560 640" class="wire-path" stroke-dasharray="5 5" opacity="0.6"/>
+    <path d="M 1140 350 C 1140 500, 1080 640, 1040 640" class="wire-path" stroke-dasharray="5 5" opacity="0.6"/>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- ENGINEERING CORE (CENTER)                  -->
+  <!-- ========================================== -->
+  <g transform="translate(0, 0)">
+    
+    <!-- Complex Holographic Rings -->
+    <g class="ring-5">
+      <circle cx="800" cy="420" r="160" fill="none" stroke="rgba(0, 242, 254, 0.1)" stroke-width="1" stroke-dasharray="2 6" />
+    </g>
+
+    <g class="ring-4">
+      <circle cx="800" cy="420" r="135" fill="none" stroke="rgba(199, 125, 255, 0.3)" stroke-width="1.5" stroke-dasharray="30 15 5 15" filter="url(#ambient-glow)"/>
+      <!-- Orbiting nodes -->
+      <circle cx="665" cy="420" r="4" fill="#00f2fe" filter="url(#ambient-glow)" />
+      <circle cx="935" cy="420" r="4" fill="#C77DFF" filter="url(#ambient-glow)" />
+    </g>
+
+    <g class="ring-1">
+      <circle cx="800" cy="420" r="110" fill="none" stroke="rgba(199, 125, 255, 0.4)" stroke-width="2.5" stroke-dasharray="6 18" />
+      <circle cx="690" cy="420" r="5" fill="#00f2fe" filter="url(#ambient-glow-intense)" />
+      <circle cx="910" cy="420" r="5" fill="#C77DFF" filter="url(#ambient-glow-intense)" />
+    </g>
+    
+    <g class="ring-2">
+      <circle cx="800" cy="420" r="90" fill="none" stroke="url(#neon-primary)" stroke-width="2" stroke-dasharray="50 25 15 25" opacity="0.9" filter="url(#ambient-glow)"/>
+    </g>
+
+    <g class="ring-3">
+      <circle cx="800" cy="420" r="70" fill="none" stroke="#00f2fe" stroke-width="1.5" stroke-dasharray="12 36" opacity="0.8" filter="url(#ambient-glow)"/>
+    </g>
+
+    <!-- Core Orb -->
+    <g class="core-pulse">
+      <!-- Inner Glowing Hexagon -->
+      <path d="M 800 365 L 848 393 L 848 447 L 800 475 L 752 447 L 752 393 Z" fill="rgba(20, 5, 45, 0.9)" filter="url(#glass-blur)" />
+      <path d="M 800 365 L 848 393 L 848 447 L 800 475 L 752 447 L 752 393 Z" fill="none" stroke="url(#glass-edge)" stroke-width="3" />
+      <circle cx="800" cy="420" r="45" fill="url(#neon-primary)" opacity="0.25" filter="url(#core-glow)" />
+      
+      <!-- Core Icon / Sacred Geometry -->
+      <path d="M 780 400 L 820 400 L 820 440 L 780 440 Z" fill="none" stroke="#E0AAFF" stroke-width="1.5" opacity="0.6" transform="rotate(45 800 420)" />
+      <path d="M 785 405 L 815 405 L 815 435 L 785 435 Z" fill="none" stroke="#ffffff" stroke-width="2.5" filter="url(#ambient-glow)" transform="rotate(45 800 420)" />
+      <circle cx="800" cy="420" r="6" fill="#00f2fe" filter="url(#ambient-glow-intense)" />
+    </g>
+
+    <!-- Floating Particles emitting from core -->
+    <g fill="#C77DFF" filter="url(#ambient-glow-intense)">
+      <circle cx="800" cy="420" r="2.5" style="animation: particle-drift 3.5s infinite 0s;" />
+      <circle cx="800" cy="420" r="3" style="animation: particle-drift 4s infinite 1.2s;" />
+      <circle cx="800" cy="420" r="2" style="animation: particle-drift 4.5s infinite 2.5s;" />
+      <circle cx="800" cy="420" r="3.5" style="animation: particle-drift 3.8s infinite 3s;" fill="#00f2fe" />
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- 1. BACKEND CARD (TOP CENTER)               -->
+  <!-- ========================================== -->
+  <g transform="translate(630, 40)">
+    <g class="glass-card">
+      <rect width="340" height="200" rx="20" fill="rgba(13, 2, 33, 0.75)" filter="url(#glass-blur)" />
+      <rect width="340" height="200" rx="20" fill="url(#glass-reflection)" />
+      <rect width="340" height="200" rx="20" fill="none" stroke="url(#glass-edge)" stroke-width="2" />
+      <rect x="0" y="0" width="340" height="5" fill="url(#neon-primary)" clip-path="inset(0 0 0 0 round 20px 20px 0 0)" />
+      
+      <!-- Header -->
+      <circle cx="25" cy="30" r="5" fill="#00f2fe" class="status-dot" filter="url(#ambient-glow)" />
+      <text x="45" y="35" class="text-header">BACKEND SYSTEM</text>
+      <path d="M 0 55 L 340 55" stroke="rgba(199, 125, 255, 0.15)" stroke-width="1.5" />
+
+      <!-- Tech Tags Grid -->
+      <!-- Row 1 -->
+      <g transform="translate(25, 75)">
+        <rect x="0" y="0" width="70" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="12" cy="14" r="3" fill="#C77DFF" />
+        <text x="42" y="18" text-anchor="middle" class="text-tag">Java</text>
+        
+        <rect x="82" y="0" width="110" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="94" cy="14" r="3" fill="#8bc34a" /> <!-- Spring Green hint -->
+        <text x="142" y="18" text-anchor="middle" class="text-tag">Spring Boot</text>
+
+        <rect x="204" y="0" width="86" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="216" cy="14" r="3" fill="#4caf50" />
+        <text x="253" y="18" text-anchor="middle" class="text-tag">Node.js</text>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(25, 115)">
+        <rect x="0" y="0" width="100" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="12" cy="14" r="3" fill="#ffffff" />
+        <text x="56" y="18" text-anchor="middle" class="text-tag">Express.js</text>
+        
+        <rect x="112" y="0" width="126" height="28" rx="8" fill="rgba(199, 125, 255, 0.15)" stroke="url(#neon-primary)" stroke-width="1.5" filter="url(#ambient-glow)" />
+        <circle cx="124" cy="14" r="3" fill="#ffffff" />
+        <text x="181" y="18" text-anchor="middle" class="text-tag text-glow" fill="#ffffff">Microservices</text>
+
+        <rect x="250" y="0" width="40" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <text x="270" y="18" text-anchor="middle" class="text-tag">API</text>
+      </g>
+
+      <!-- Row 3 -->
+      <g transform="translate(25, 155)">
+        <rect x="35" y="0" width="115" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="47" cy="14" r="3" fill="#336791" /> <!-- Postgres blue hint -->
+        <text x="98" y="18" text-anchor="middle" class="text-tag">PostgreSQL</text>
+        
+        <rect x="162" y="0" width="80" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="174" cy="14" r="3" fill="#d82c20" /> <!-- Redis red hint -->
+        <text x="208" y="18" text-anchor="middle" class="text-tag">Redis</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- 2. FRONTEND CARD (LEFT CENTER)             -->
+  <!-- ========================================== -->
+  <g transform="translate(120, 220)">
+    <g class="glass-card-delay">
+      <rect width="320" height="260" rx="20" fill="rgba(13, 2, 33, 0.75)" filter="url(#glass-blur)" />
+      <rect width="320" height="260" rx="20" fill="url(#glass-reflection)" />
+      <rect width="320" height="260" rx="20" fill="none" stroke="url(#glass-edge)" stroke-width="2" />
+      <rect x="0" y="0" width="320" height="5" fill="url(#neon-primary)" clip-path="inset(0 0 0 0 round 20px 20px 0 0)" />
+      
+      <!-- Header -->
+      <circle cx="25" cy="30" r="5" fill="#C77DFF" filter="url(#ambient-glow)" />
+      <text x="45" y="35" class="text-header">FRONTEND ECOSYSTEM</text>
+      <path d="M 0 55 L 320 55" stroke="rgba(199, 125, 255, 0.15)" stroke-width="1.5" />
+
+      <!-- Isometric Mockup / Visual (Centered & Enlarged) -->
+      <g transform="translate(160, 110)">
+        <path d="M -60 0 L 0 -30 L 60 0 L 0 30 Z" fill="rgba(199, 125, 255, 0.15)" stroke="url(#neon-primary)" stroke-width="2" filter="url(#ambient-glow)" />
+        <!-- Glowing nodes on the mockup -->
+        <circle cx="-60" cy="0" r="3" fill="#00f2fe" filter="url(#ambient-glow)"/>
+        <circle cx="60" cy="0" r="3" fill="#C77DFF" filter="url(#ambient-glow)"/>
+        <circle cx="0" cy="-30" r="3" fill="#ffffff" filter="url(#ambient-glow)"/>
+        <path d="M -60 20 L 0 -10 L 60 20 L 0 50 Z" fill="none" stroke="rgba(199, 125, 255, 0.4)" stroke-width="1.5" />
+        <path d="M -60 40 L 0 10 L 60 40 L 0 70 Z" fill="none" stroke="rgba(199, 125, 255, 0.2)" stroke-width="1.5" />
+      </g>
+
+      <!-- Tech Tags Grid -->
+      <g transform="translate(25, 185)">
+        <!-- Row 1 -->
+        <rect x="0" y="0" width="80" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="12" cy="14" r="3" fill="#61dafb" />
+        <text x="46" y="18" text-anchor="middle" class="text-tag">React</text>
+        
+        <rect x="92" y="0" width="85" height="28" rx="8" fill="rgba(199, 125, 255, 0.15)" stroke="url(#neon-primary)" stroke-width="1.5" filter="url(#ambient-glow)" />
+        <circle cx="104" cy="14" r="3" fill="#ffffff" />
+        <text x="140" y="18" text-anchor="middle" class="text-tag text-glow" fill="#ffffff">Next.js</text>
+        
+        <rect x="189" y="0" width="81" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="201" cy="14" r="3" fill="#ffffff" />
+        <text x="235" y="18" text-anchor="middle" class="text-tag">Three.js</text>
+
+        <!-- Row 2 -->
+        <rect x="15" y="36" width="125" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="27" cy="50" r="3" fill="#38bdf8" />
+        <text x="83" y="54" text-anchor="middle" class="text-tag">Tailwind CSS</text>
+
+        <rect x="152" y="36" width="103" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="164" cy="50" r="3" fill="#3178c6" />
+        <text x="209" y="54" text-anchor="middle" class="text-tag">TypeScript</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- 3. AI CARD (RIGHT CENTER)                  -->
+  <!-- ========================================== -->
+  <g transform="translate(1160, 220)">
+    <g class="glass-card-delay-2">
+      <rect width="320" height="260" rx="20" fill="rgba(13, 2, 33, 0.75)" filter="url(#glass-blur)" />
+      <rect width="320" height="260" rx="20" fill="url(#glass-reflection)" />
+      <rect width="320" height="260" rx="20" fill="none" stroke="url(#glass-edge)" stroke-width="2" />
+      <rect x="0" y="0" width="320" height="5" fill="url(#neon-primary)" clip-path="inset(0 0 0 0 round 20px 20px 0 0)" />
+      
+      <!-- Header -->
+      <circle cx="25" cy="30" r="5" fill="#C77DFF" filter="url(#ambient-glow)" />
+      <text x="45" y="35" class="text-header">ARTIFICIAL INTELLIGENCE</text>
+      <path d="M 0 55 L 320 55" stroke="rgba(199, 125, 255, 0.15)" stroke-width="1.5" />
+
+      <!-- Neural Network Visual (Centered & Detailed) -->
+      <g transform="translate(160, 110)">
+        <g stroke="rgba(199, 125, 255, 0.4)" stroke-width="2">
+          <path d="M -60 0 L -25 -25" />
+          <path d="M -60 0 L -25 25" />
+          <path d="M -25 -25 L 25 -25" />
+          <path d="M -25 -25 L 25 25" />
+          <path d="M -25 25 L 25 -25" />
+          <path d="M -25 25 L 25 25" />
+          <path d="M 25 -25 L 60 0" />
+          <path d="M 25 25 L 60 0" stroke="url(#neon-primary)" stroke-width="2.5" filter="url(#ambient-glow)"/>
+        </g>
+        <!-- Nodes -->
+        <circle cx="-60" cy="0" r="5" fill="#C77DFF" filter="url(#ambient-glow)" />
+        <circle cx="-25" cy="-25" r="5" fill="#00f2fe" filter="url(#ambient-glow)" />
+        <circle cx="-25" cy="25" r="5" fill="#C77DFF" filter="url(#ambient-glow)" />
+        <circle cx="25" cy="-25" r="5" fill="#C77DFF" filter="url(#ambient-glow)" />
+        <circle cx="25" cy="25" r="5" fill="#00f2fe" filter="url(#ambient-glow)" />
+        <circle cx="60" cy="0" r="6" fill="#ffffff" filter="url(#ambient-glow-intense)" />
+      </g>
+
+      <!-- Tech Tags Grid -->
+      <g transform="translate(25, 185)">
+        <!-- Row 1 -->
+        <rect x="0" y="0" width="80" height="28" rx="8" fill="rgba(199, 125, 255, 0.15)" stroke="url(#neon-primary)" stroke-width="1.5" filter="url(#ambient-glow)" />
+        <circle cx="12" cy="14" r="3" fill="#ffffff" />
+        <text x="46" y="18" text-anchor="middle" class="text-tag text-glow" fill="#ffffff">OpenAI</text>
+        
+        <rect x="92" y="0" width="105" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="104" cy="14" r="3" fill="#C77DFF" />
+        <text x="150" y="18" text-anchor="middle" class="text-tag">AI Agents</text>
+        
+        <rect x="209" y="0" width="61" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="221" cy="14" r="3" fill="#C77DFF" />
+        <text x="245" y="18" text-anchor="middle" class="text-tag">RAG</text>
+
+        <!-- Row 2 -->
+        <rect x="10" y="36" width="165" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="22" cy="50" r="3" fill="#C77DFF" />
+        <text x="98" y="54" text-anchor="middle" class="text-tag">Prompt Engineering</text>
+
+        <rect x="187" y="36" width="73" height="28" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="199" cy="50" r="3" fill="#C77DFF" />
+        <text x="229" y="54" text-anchor="middle" class="text-tag">MCP</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- 4. INFRASTRUCTURE LAYER (BOTTOM LARGE)     -->
+  <!-- ========================================== -->
+  <g transform="translate(250, 640)">
+    <g class="glass-card">
+      <rect width="1100" height="140" rx="20" fill="rgba(13, 2, 33, 0.75)" filter="url(#glass-blur)" />
+      <rect width="1100" height="140" rx="20" fill="url(#glass-reflection)" />
+      <rect width="1100" height="140" rx="20" fill="none" stroke="url(#glass-edge)" stroke-width="2" />
+      <rect x="0" y="0" width="1100" height="5" fill="url(#neon-primary)" clip-path="inset(0 0 0 0 round 20px 20px 0 0)" />
+      
+      <!-- Header -->
+      <circle cx="25" cy="30" r="5" fill="#C77DFF" filter="url(#ambient-glow)" />
+      <text x="45" y="35" class="text-header">CLOUD &amp; DEPLOYMENT INFRASTRUCTURE</text>
+      <path d="M 0 55 L 1100 55" stroke="rgba(199, 125, 255, 0.15)" stroke-width="1.5" />
+
+      <!-- Tech Tags Centered -->
+      <g transform="translate(70, 80)">
+        <!-- Row 1 -->
+        <rect x="0" y="0" width="90" height="32" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="14" cy="16" r="3" fill="#2496ed" /> <!-- Docker blue -->
+        <text x="50" y="21" text-anchor="middle" class="text-tag">Docker</text>
+        
+        <rect x="105" y="0" width="90" height="32" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="119" cy="16" r="3" fill="#ffffff" />
+        <text x="155" y="21" text-anchor="middle" class="text-tag">GitHub</text>
+
+        <rect x="210" y="0" width="145" height="32" rx="8" fill="rgba(199, 125, 255, 0.15)" stroke="url(#neon-primary)" stroke-width="1.5" filter="url(#ambient-glow)" />
+        <circle cx="224" cy="16" r="3" fill="#2088ff" />
+        <text x="287" y="21" text-anchor="middle" class="text-tag text-glow" fill="#ffffff">GitHub Actions</text>
+
+        <rect x="370" y="0" width="80" height="32" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="384" cy="16" r="3" fill="#f5c211" /> <!-- Linux yellow hint -->
+        <text x="415" y="21" text-anchor="middle" class="text-tag">Linux</text>
+
+        <rect x="465" y="0" width="90" height="32" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="479" cy="16" r="3" fill="#ffffff" />
+        <text x="515" y="21" text-anchor="middle" class="text-tag">Render</text>
+
+        <rect x="570" y="0" width="90" height="32" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="584" cy="16" r="3" fill="#ffffff" />
+        <text x="620" y="21" text-anchor="middle" class="text-tag">Vercel</text>
+        
+        <rect x="675" y="0" width="105" height="32" rx="8" fill="rgba(199, 125, 255, 0.08)" stroke="rgba(199, 125, 255, 0.25)" stroke-width="1.5" />
+        <circle cx="689" cy="16" r="3" fill="#ff9900" /> <!-- AWS Orange -->
+        <text x="732" y="21" text-anchor="middle" class="text-tag">AWS Cloud</text>
+        
+        <!-- Architectural decorative node -->
+        <g transform="translate(830, -5)" stroke="url(#neon-primary)" stroke-width="2" fill="rgba(199, 125, 255, 0.1)">
+          <polygon points="20,0 40,10 40,30 20,40 0,30 0,10" filter="url(#ambient-glow)"/>
+          <polygon points="50,15 70,25 70,45 50,55 30,45 30,25" />
+          <circle cx="20" cy="20" r="3" fill="#ffffff" stroke="none" />
+          <circle cx="50" cy="35" r="3" fill="#ffffff" stroke="none" />
+          <path d="M 20 20 L 50 35" stroke="rgba(199,125,255,0.5)" stroke-width="1" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- 5. ENGINEERING WORKFLOW (BOTTOM)           -->
+  <!-- ========================================== -->
+  <g transform="translate(200, 820)">
+    
+    <text x="0" y="-12" class="text-mono" font-size="12">01. CONTINUOUS DELIVERY WORKFLOW</text>
+    
+    <!-- Glass Container -->
+    <rect width="1200" height="120" rx="25" fill="rgba(5, 1, 15, 0.85)" filter="url(#glass-blur)" />
+    <rect width="1200" height="120" rx="25" fill="none" stroke="rgba(199, 125, 255, 0.3)" stroke-width="2" />
+    <rect width="1200" height="120" rx="25" fill="url(#glass-reflection)" />
+
+    <!-- Connecting Wires inside Workflow -->
+    <g transform="translate(0, 60)">
+      <path d="M 120 0 L 1080 0" fill="none" stroke="rgba(199, 125, 255, 0.25)" stroke-width="5" stroke-linecap="round" />
+      <path d="M 120 0 L 1080 0" fill="none" stroke="url(#neon-cyan)" stroke-width="5" stroke-linecap="round" stroke-dasharray="25 50" style="animation: flow-line 2s linear infinite; filter: url(#ambient-glow);" />
+    </g>
+
+    <!-- Small transition labels on arrows -->
+    <g class="text-tag" font-size="10" opacity="0.6">
+      <text x="216" y="45" text-anchor="middle">design</text>
+      <text x="408" y="45" text-anchor="middle">commit</text>
+      <text x="600" y="45" text-anchor="middle">ci/cd</text>
+      <text x="792" y="45" text-anchor="middle">release</text>
+      <text x="984" y="45" text-anchor="middle">monitor</text>
+    </g>
+
+    <!-- Nodes -->
+    <!-- Node 1: Idea -->
+    <g transform="translate(120, 60)">
+      <circle cx="0" cy="0" r="35" fill="#090117" stroke="#C77DFF" stroke-width="2" />
+      <circle cx="0" cy="0" r="28" fill="rgba(199, 125, 255, 0.1)" />
+      <!-- Lightbulb Icon -->
+      <path d="M -6 -10 C -6 -15, 6 -15, 6 -10 C 6 -5, 3 -2, 3 3 L -3 3 C -3 -2, -6 -5, -6 -10 Z" fill="none" stroke="#E0AAFF" stroke-width="2.5" />
+      <path d="M -3 7 L 3 7 M -1 11 L 1 11" fill="none" stroke="#E0AAFF" stroke-width="2.5" />
+      <text x="0" y="52" text-anchor="middle" class="text-tag">IDEA</text>
+    </g>
+
+    <!-- Node 2: Code -->
+    <g transform="translate(312, 60)">
+      <circle cx="0" cy="0" r="35" fill="#090117" stroke="#C77DFF" stroke-width="2" />
+      <circle cx="0" cy="0" r="28" fill="rgba(199, 125, 255, 0.1)" />
+      <!-- Code Icon -->
+      <path d="M -7 -6 L -14 0 L -7 6 M 7 -6 L 14 0 L 7 6 M 3 -9 L -3 9" fill="none" stroke="#E0AAFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="0" y="52" text-anchor="middle" class="text-tag">CODE</text>
+    </g>
+
+    <!-- Node 3: Version Control -->
+    <g transform="translate(504, 60)">
+      <circle cx="0" cy="0" r="35" fill="#090117" stroke="#C77DFF" stroke-width="2" />
+      <circle cx="0" cy="0" r="28" fill="rgba(199, 125, 255, 0.1)" />
+      <!-- Branch Icon -->
+      <circle cx="-6" cy="7" r="3" fill="none" stroke="#E0AAFF" stroke-width="2.5" />
+      <circle cx="-6" cy="-7" r="3" fill="none" stroke="#E0AAFF" stroke-width="2.5" />
+      <circle cx="6" cy="-7" r="3" fill="none" stroke="#E0AAFF" stroke-width="2.5" />
+      <path d="M -6 4 L -6 -4 M -6 0 Q -6 -7 3 -7" fill="none" stroke="#E0AAFF" stroke-width="2.5" />
+      <text x="0" y="52" text-anchor="middle" class="text-tag">VERSION CONTROL</text>
+    </g>
+
+    <!-- Node 4: Build -->
+    <g transform="translate(696, 60)">
+      <circle cx="0" cy="0" r="35" fill="#090117" stroke="#C77DFF" stroke-width="2" />
+      <circle cx="0" cy="0" r="28" fill="rgba(199, 125, 255, 0.1)" />
+      <!-- Gear Icon -->
+      <circle cx="0" cy="0" r="6" fill="none" stroke="#E0AAFF" stroke-width="2.5" />
+      <path d="M 0 -8 L 0 -6 M 0 8 L 0 6 M -8 0 L -6 0 M 8 0 L 6 0 M -6 -6 L -4.5 -4.5 M 6 6 L 4.5 4.5 M -6 6 L -4.5 4.5 M 6 -6 L 4.5 -4.5" stroke="#E0AAFF" stroke-width="2.5" stroke-linecap="round" />
+      <text x="0" y="52" text-anchor="middle" class="text-tag">BUILD</text>
+    </g>
+
+    <!-- Node 5: Deploy -->
+    <g transform="translate(888, 60)">
+      <circle cx="0" cy="0" r="35" fill="#090117" stroke="#C77DFF" stroke-width="2" />
+      <circle cx="0" cy="0" r="28" fill="rgba(199, 125, 255, 0.1)" />
+      <!-- Upload Cloud Icon -->
+      <path d="M -8 3 C -12 3, -14 -1, -12 -5 C -12 -10, -3 -12, 0 -7 C 6 -12, 14 -7, 12 -1 C 15 -1, 15 5, 8 5 Z" fill="none" stroke="#00f2fe" stroke-width="2.5" filter="url(#ambient-glow)"/>
+      <path d="M 0 5 L 0 -2 M -4 2 L 0 -2 L 4 2" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+      <text x="0" y="52" text-anchor="middle" class="text-tag">DEPLOY</text>
+    </g>
+
+    <!-- Node 6: Production -->
+    <g transform="translate(1080, 60)">
+      <circle cx="0" cy="0" r="42" fill="#090117" stroke="url(#neon-cyan)" stroke-width="2.5" filter="url(#ambient-glow)" />
+      <circle cx="0" cy="0" r="33" fill="rgba(0, 242, 254, 0.15)" />
+      <!-- Server Icon -->
+      <rect x="-12" y="-9" width="24" height="7" rx="1.5" fill="none" stroke="#ffffff" stroke-width="2" />
+      <rect x="-12" y="2" width="24" height="7" rx="1.5" fill="none" stroke="#ffffff" stroke-width="2" />
+      <circle cx="6" cy="-5.5" r="1.5" fill="#27c93f" />
+      <circle cx="6" cy="5.5" r="1.5" fill="#27c93f" />
+      <text x="0" y="52" text-anchor="middle" class="text-tag" fill="#00f2fe">PRODUCTION</text>
+    </g>
+  </g>
+
+</svg>
