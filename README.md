@@ -34,9 +34,11 @@
 <tr>
 <td width="58%" valign="top">
 
-I'm a Computer Science Engineering student focused on **backend engineering**, **full-stack development**, and **software architecture** — Java and Spring Boot as my primary toolkit, React/Next.js on the front end.
+Computer Science Engineering student aspiring to become a **Software Development Engineer (SDE)**, passionate about building scalable backend systems and modern full-stack applications.
 
-My priority is writing clean, maintainable code and shipping real systems, while continuously sharpening **DSA**, **system design**, and engineering fundamentals.
+Skilled in **Java**, **Spring Boot**, **React**, **Next.js**, **PostgreSQL**, and **Docker**, with a strong focus on clean architecture, maintainable code, and production-ready software.
+
+Currently sharpening my expertise in **Data Structures & Algorithms**, **System Design**, **Cloud Technologies**, and **Software Engineering Fundamentals** through hands-on projects and continuous learning.
 
 <br/>
 
