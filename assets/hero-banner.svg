@@ -94,7 +94,7 @@
 
   <text x="90" y="122" font-size="13" letter-spacing="1.5" fill="#38BDF8" opacity="0.9">$ whoami --init</text>
   <text x="90" y="160" font-size="32" font-weight="700" fill="#F1F5F9" filter="url(#softGlow)">ABHAY KUSHWAHA</text>
-  <text x="90" y="188" font-size="14.5" fill="#94A3B8">Java Full-Stack Developer · Backend Engineer</text>
+  <text x="90" y="188" font-size="14.5" fill="#94A3B8">Software Engineer · Full-Stack Developer · Backend Engineer</text>
   <text x="90" y="208" font-size="14.5" fill="#94A3B8">System Design · Building CareerOS AI</text>
 
   <!-- blinking cursor -->
