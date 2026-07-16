@@ -34,12 +34,9 @@
 <tr>
 <td width="58%" valign="top">
 
-Computer Science Engineering student aspiring to become a **Software Development Engineer (SDE)**, passionate about building scalable backend systems and modern full-stack applications.
+Software Development Engineer (SDE) focused on building scalable backend systems, modern full-stack applications, and intuitive frontend experiences. Experienced with **Java**, **Spring Boot**, **React**, **Next.js**, **PostgreSQL**, and **Docker**, following clean architecture and production-ready software engineering practices.
 
-Skilled in **Java**, **Spring Boot**, **React**, **Next.js**, **PostgreSQL**, and **Docker**, with a strong focus on clean architecture, maintainable code, and production-ready software.
-
-Currently sharpening my expertise in **Data Structures & Algorithms**, **System Design**, **Cloud Technologies**, and **Software Engineering Fundamentals** through hands-on projects and continuous learning.
-
+Passionate about **Backend Engineering**, **Software Architecture**, **System Design**, **Distributed Systems**, **Cloud Technologies**, and **AI-powered applications**, with a focus on building reliable, scalable, and high-performance software.
 <br/>
 
 | | |
