@@ -1,0 +1,130 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',monospace">
+  <defs>
+    <linearGradient id="netBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05050A"/>
+      <stop offset="50%" stop-color="#0B0714"/>
+      <stop offset="100%" stop-color="#05050A"/>
+    </linearGradient>
+
+    <pattern id="netGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#A78BFA" stroke-width="0.35" opacity="0.15"/>
+    </pattern>
+
+    <filter id="netGlowSm" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#94A3B8"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#netBg)"/>
+  <rect width="1200" height="700" fill="url(#netGrid)"/>
+
+  <!-- left rail : request flow (top to bottom) -->
+  <line x1="140" y1="40" x2="140" y2="660" stroke="#A78BFA" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="3 7"/>
+  <circle cx="140" cy="40" r="4" fill="#A78BFA" filter="url(#netGlowSm)">
+    <animate attributeName="cy" values="40;660;40" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.9;0.95;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="140" y="345" font-size="11" letter-spacing="3" fill="#A78BFA" opacity="0.7" text-anchor="middle" transform="rotate(-90 140 350)">REQUEST</text>
+
+  <!-- right rail : response flow (bottom to top) -->
+  <line x1="1060" y1="40" x2="1060" y2="660" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="3 7"/>
+  <circle cx="1060" cy="660" r="4" fill="#38BDF8" filter="url(#netGlowSm)">
+    <animate attributeName="cy" values="660;40;660" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;1" keyTimes="0;0.9;0.95;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1060" y="355" font-size="11" letter-spacing="3" fill="#38BDF8" opacity="0.7" text-anchor="middle" transform="rotate(90 1060 350)">RESPONSE</text>
+
+  <!-- connectors between cards -->
+  <g stroke-width="1.5" fill="none">
+    <line x1="600" y1="110" x2="600" y2="150" stroke="#5FA8E0" stroke-dasharray="4 4" marker-end="url(#arrowHead)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="600" y1="220" x2="600" y2="260" stroke="#B39DDB" stroke-dasharray="4 4" marker-end="url(#arrowHead)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="600" y1="330" x2="600" y2="370" stroke="#C9A4E8" stroke-dasharray="4 4" marker-end="url(#arrowHead)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="600" y1="440" x2="600" y2="480" stroke="#E5B94E" stroke-dasharray="4 4" marker-end="url(#arrowHead)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="600" y1="550" x2="600" y2="590" stroke="#6FA8F5" stroke-dasharray="4 4" marker-end="url(#arrowHead)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- CLIENT -->
+  <g transform="translate(380,40)">
+    <rect width="440" height="70" rx="12" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="440" height="70" rx="12" fill="none" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="4" height="70" rx="2" fill="#38BDF8"/>
+    <text x="24" y="30" font-size="11" fill="#38BDF8" opacity="0.9">01</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#F1F5F9">CLIENT</text>
+    <text x="52" y="52" font-size="12.5" fill="#94A3B8">React · Next.js</text>
+  </g>
+
+  <!-- REST API -->
+  <g transform="translate(380,150)">
+    <rect width="440" height="70" rx="12" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="440" height="70" rx="12" fill="none" stroke="#A78BFA" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="4" height="70" rx="2" fill="#A78BFA"/>
+    <text x="24" y="30" font-size="11" fill="#A78BFA" opacity="0.9">02</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#F1F5F9">REST API LAYER</text>
+    <text x="52" y="52" font-size="12.5" fill="#94A3B8">Express.js · Spring Boot</text>
+  </g>
+
+  <!-- BUSINESS LOGIC -->
+  <g transform="translate(380,260)">
+    <rect width="440" height="70" rx="12" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="440" height="70" rx="12" fill="none" stroke="#8B5CF6" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="4" height="70" rx="2" fill="#8B5CF6"/>
+    <text x="24" y="30" font-size="11" fill="#8B5CF6" opacity="0.9">03</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#F1F5F9">BUSINESS LOGIC</text>
+    <text x="52" y="52" font-size="12.5" fill="#94A3B8">Services &amp; domain rules</text>
+  </g>
+
+  <!-- DATABASE -->
+  <g transform="translate(380,370)">
+    <rect width="440" height="70" rx="12" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="440" height="70" rx="12" fill="none" stroke="#FBBF24" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="4" height="70" rx="2" fill="#FBBF24"/>
+    <text x="24" y="30" font-size="11" fill="#FBBF24" opacity="0.9">04</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#F1F5F9">DATABASE</text>
+    <text x="52" y="52" font-size="12.5" fill="#94A3B8">PostgreSQL · MongoDB · MySQL</text>
+
+    <!-- redis branch -->
+    <line x1="440" y1="35" x2="500" y2="35" stroke="#DC382D" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="3 4"/>
+  </g>
+  <g transform="translate(880,350)">
+    <rect width="180" height="40" rx="10" fill="#0D0818" stroke="#DC382D" stroke-opacity="0.45"/>
+    <circle cx="20" cy="20" r="4" fill="#DC382D">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="34" y="24" font-size="11.5" fill="#E2E8F0">REDIS CACHE</text>
+  </g>
+
+  <!-- CONTAINER -->
+  <g transform="translate(380,480)">
+    <rect width="440" height="70" rx="12" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="440" height="70" rx="12" fill="none" stroke="#60A5FA" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="4" height="70" rx="2" fill="#60A5FA"/>
+    <text x="24" y="30" font-size="11" fill="#60A5FA" opacity="0.9">05</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#F1F5F9">CONTAINER</text>
+    <text x="52" y="52" font-size="12.5" fill="#94A3B8">Docker</text>
+  </g>
+
+  <!-- DEPLOYMENT -->
+  <g transform="translate(380,590)">
+    <rect width="440" height="70" rx="12" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="440" height="70" rx="12" fill="none" stroke="#34D399" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="4" height="70" rx="2" fill="#34D399"/>
+    <text x="24" y="30" font-size="11" fill="#34D399" opacity="0.9">06</text>
+    <text x="52" y="32" font-size="15" font-weight="700" fill="#F1F5F9">DEPLOYMENT</text>
+    <text x="52" y="52" font-size="12.5" fill="#94A3B8">Render · Vercel</text>
+  </g>
+</svg>

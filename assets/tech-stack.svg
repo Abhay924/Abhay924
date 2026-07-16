@@ -1,0 +1,97 @@
+<svg viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono','Fira Code',monospace">
+  <defs>
+    <linearGradient id="tsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05050A"/>
+      <stop offset="50%" stop-color="#0B0714"/>
+      <stop offset="100%" stop-color="#05050A"/>
+    </linearGradient>
+
+    <linearGradient id="tsBus" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A78BFA" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="tsStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <filter id="tsDotGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#tsBg)"/>
+  <rect x="0" y="8" width="1200" height="1.4" fill="url(#tsBus)">
+    <animate attributeName="opacity" values="0.4;0.85;0.4" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="600" y="34" font-size="12" letter-spacing="3" fill="#64748B" text-anchor="middle">TECHNOLOGY STACK</text>
+
+  <!-- LANGUAGES -->
+  <g transform="translate(40,50)">
+    <rect width="540" height="165" rx="14" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="540" height="165" rx="14" fill="none" stroke="url(#tsStroke)" stroke-width="1"/>
+    <text x="24" y="30" font-size="12" letter-spacing="1.5" fill="#38BDF8" opacity="0.85">LANGUAGES</text>
+
+    <circle cx="30" cy="54" r="5" fill="#ED8B00" filter="url(#tsDotGlow)"/>
+    <text x="44" y="59" font-size="13.5" fill="#E2E8F0">Java</text>
+    <circle cx="30" cy="78" r="5" fill="#F7DF1E" filter="url(#tsDotGlow)"/>
+    <text x="44" y="83" font-size="13.5" fill="#E2E8F0">JavaScript</text>
+    <circle cx="30" cy="102" r="5" fill="#3776AB" filter="url(#tsDotGlow)"/>
+    <text x="44" y="107" font-size="13.5" fill="#E2E8F0">Python</text>
+    <circle cx="30" cy="126" r="5" fill="#00599C" filter="url(#tsDotGlow)"/>
+    <text x="44" y="131" font-size="13.5" fill="#E2E8F0">C++</text>
+    <circle cx="30" cy="150" r="5" fill="#4479A1" filter="url(#tsDotGlow)"/>
+    <text x="44" y="155" font-size="13.5" fill="#E2E8F0">SQL</text>
+  </g>
+
+  <!-- FRONTEND -->
+  <g transform="translate(620,50)">
+    <rect width="540" height="165" rx="14" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="540" height="165" rx="14" fill="none" stroke="url(#tsStroke)" stroke-width="1"/>
+    <text x="24" y="30" font-size="12" letter-spacing="1.5" fill="#38BDF8" opacity="0.85">FRONTEND</text>
+
+    <circle cx="30" cy="54" r="5" fill="#61DAFB" filter="url(#tsDotGlow)"/>
+    <text x="44" y="59" font-size="13.5" fill="#E2E8F0">React</text>
+    <circle cx="30" cy="78" r="5" fill="#F1F5F9" filter="url(#tsDotGlow)"/>
+    <text x="44" y="83" font-size="13.5" fill="#E2E8F0">Next.js</text>
+    <circle cx="30" cy="102" r="5" fill="#06B6D4" filter="url(#tsDotGlow)"/>
+    <text x="44" y="107" font-size="13.5" fill="#E2E8F0">Tailwind CSS</text>
+    <circle cx="30" cy="126" r="5" fill="#7952B3" filter="url(#tsDotGlow)"/>
+    <text x="44" y="131" font-size="13.5" fill="#E2E8F0">Bootstrap</text>
+  </g>
+
+  <!-- BACKEND -->
+  <g transform="translate(40,235)">
+    <rect width="540" height="165" rx="14" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="540" height="165" rx="14" fill="none" stroke="url(#tsStroke)" stroke-width="1"/>
+    <text x="24" y="30" font-size="12" letter-spacing="1.5" fill="#38BDF8" opacity="0.85">BACKEND</text>
+
+    <circle cx="30" cy="54" r="5" fill="#6DB33F" filter="url(#tsDotGlow)"/>
+    <text x="44" y="59" font-size="13.5" fill="#E2E8F0">Spring Boot</text>
+    <circle cx="30" cy="78" r="5" fill="#339933" filter="url(#tsDotGlow)"/>
+    <text x="44" y="83" font-size="13.5" fill="#E2E8F0">Node.js</text>
+    <circle cx="30" cy="102" r="5" fill="#94A3B8" filter="url(#tsDotGlow)"/>
+    <text x="44" y="107" font-size="13.5" fill="#E2E8F0">Express.js</text>
+    <circle cx="30" cy="126" r="5" fill="#38BDF8" filter="url(#tsDotGlow)"/>
+    <text x="44" y="131" font-size="13.5" fill="#E2E8F0">REST APIs</text>
+  </g>
+
+  <!-- DATA & DEVOPS -->
+  <g transform="translate(620,235)">
+    <rect width="540" height="165" rx="14" fill="#FFFFFF" opacity="0.035"/>
+    <rect width="540" height="165" rx="14" fill="none" stroke="url(#tsStroke)" stroke-width="1"/>
+    <text x="24" y="30" font-size="12" letter-spacing="1.5" fill="#38BDF8" opacity="0.85">DATA &amp; DEVOPS</text>
+
+    <circle cx="30" cy="54" r="5" fill="#4169E1" filter="url(#tsDotGlow)"/>
+    <text x="44" y="59" font-size="13.5" fill="#E2E8F0">PostgreSQL</text>
+    <circle cx="30" cy="78" r="5" fill="#4479A1" filter="url(#tsDotGlow)"/>
+    <text x="44" y="83" font-size="13.5" fill="#E2E8F0">MySQL</text>
+    <circle cx="30" cy="102" r="5" fill="#DC382D" filter="url(#tsDotGlow)"/>
+    <text x="44" y="107" font-size="13.5" fill="#E2E8F0">Redis</text>
+    <circle cx="30" cy="126" r="5" fill="#2496ED" filter="url(#tsDotGlow)"/>
+    <text x="44" y="131" font-size="13.5" fill="#E2E8F0">Docker</text>
+  </g>
+</svg>
