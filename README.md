@@ -22,13 +22,13 @@
 
 <br/><br/>
 
-## `01` System Identity
+##  System Identity
 
 <img src="./assets/developer-terminal.svg" width="100%" alt="Developer Terminal" />
 
 <br/>
 
-## `02` About
+##  About
 
 <table>
 <tr>
@@ -59,7 +59,7 @@ My priority is writing clean, maintainable code and shipping real systems, while
 
 <br/>
 
-## `03` Infrastructure Overview
+##  Infrastructure Overview
 
 <img src="./assets/network-architecture.svg" width="100%" alt="Infrastructure Overview" />
 
@@ -67,7 +67,7 @@ My priority is writing clean, maintainable code and shipping real systems, while
 
 <br/>
 
-## `04` Technology Stack
+##  Technology Stack
 
 <img src="./assets/tech-stack.svg" width="100%" alt="Tech Stack" />
 
@@ -123,7 +123,7 @@ My priority is writing clean, maintainable code and shipping real systems, while
 
 <br/>
 
-## `05` Projects
+##  Projects
 
 <table>
 <tr>
@@ -198,7 +198,7 @@ Software company website — service showcase, AI chatbot integration, premium r
 
 <br/>
 
-## `06` Architecture References
+##  Architecture References
 
 <table align="center">
 <tr>
@@ -211,7 +211,7 @@ Software company website — service showcase, AI chatbot integration, premium r
 
 <br/>
 
-## `07` Engineering Analytics
+##  Engineering Analytics
 
 <img src="https://github-readme-stats.vercel.app/api?username=Abhay924&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=A78BFA&text_color=C9D1D9" width="49%" alt="GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhay924&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="49%" alt="Top Languages" />
@@ -229,7 +229,7 @@ Software company website — service showcase, AI chatbot integration, premium r
 
 <br/>
 
-## `08` Engineering Timeline
+##  Engineering Timeline
 
 <img src="./assets/timeline.svg" width="100%" alt="Engineering Timeline" />
 
@@ -242,7 +242,7 @@ Software company website — service showcase, AI chatbot integration, premium r
 
 <br/>
 
-## `09` Learning Roadmap
+##  Learning Roadmap
 
 - [x] Java fundamentals and object-oriented design
 - [x] Full-stack development with React and Node.js
@@ -253,7 +253,7 @@ Software company website — service showcase, AI chatbot integration, premium r
 
 <br/>
 
-## `10` Certifications
+##  Certifications
 
 <table align="center">
 <tr>
@@ -269,7 +269,7 @@ Software company website — service showcase, AI chatbot integration, premium r
 
 <br/>
 
-## `11` Contact
+##  Contact
 
 <div align="center">
 
