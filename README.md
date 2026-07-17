@@ -18,8 +18,6 @@
 <img src="./assets/cyber-dashboard.svg" width="100%" alt="Engineering Status Bar" />
 </div>
 
-<sub>Rendered once at page load — primary stack, active project count, and current learning focus in a single glance instead of scattered across badge rows.</sub>
-
 <br/><br/>
 
 ##  System Identity
@@ -34,16 +32,16 @@
 <tr>
 <td width="58%" valign="top">
 
-Software Development Engineer (SDE) focused on building scalable backend systems, modern full-stack applications, and intuitive frontend experiences. Experienced with **Java**, **Spring Boot**, **React**, **Next.js**, **PostgreSQL**, and **Docker**, following clean architecture and production-ready software engineering practices.
+Final-year CSE student building full-stack and backend projects with **Java**, **Spring Boot**, **React**, **Next.js**, **PostgreSQL**, and **Docker**. Currently focused on strengthening backend fundamentals and moving from project-based learning toward production-grade engineering practices.
 
-Passionate about **Backend Engineering**, **Software Architecture**, **System Design**, **Distributed Systems**, **Cloud Technologies**, and **AI-powered applications**, with a focus on building reliable, scalable, and high-performance software.
+Interested in **backend engineering**, **software architecture**, and **AI-powered applications** — actively working toward deeper knowledge of system design and distributed systems (see roadmap below).
 <br/>
 
 | | |
 |---|---|
-| 🔭 **Building** | CareerOS AI — an AI-powered career operating system |
-| 🌱 **Deepening** | Spring Boot internals, distributed system design, Docker/K8s |
-| 💬 **Ask me about** | Java, backend architecture, microservices, full-stack systems |
+| 🔭 **Building** | CareerOS AI — an AI-powered career assistant |
+| 🌱 **Learning** | System design fundamentals, Docker/Kubernetes basics |
+| 💬 **Ask me about** | Java, Spring Boot, full-stack project architecture |
 | 📫 **Reach me** | abhaykushwaha06@gmail.com |
 | 🎓 **Graduating** | 2027 — B.Tech, Computer Science Engineering |
 
@@ -62,7 +60,7 @@ Passionate about **Backend Engineering**, **Software Architecture**, **System De
 
 <img src="./assets/network-architecture.svg" width="100%" alt="Infrastructure Overview" />
 
-<sub>General pattern I build with across projects — decoupled frontend, an API layer, service logic, persistent storage, containerized where applicable. Representative, not a diagram of one specific deployed system.</sub>
+<sub>The general shape I follow across projects — separate frontend, an API layer, and persistent storage, containerized where the project calls for it.</sub>
 
 <br/>
 
@@ -108,7 +106,7 @@ Passionate about **Backend Engineering**, **Software Architecture**, **System De
 **Data & DevOps**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
@@ -129,12 +127,12 @@ Passionate about **Backend Engineering**, **Software Architecture**, **System De
 <td width="100%" valign="top">
 
 ### 🧠 CareerOS AI — Flagship Project
-Global AI-powered career operating system — ten specialized agents covering resume generation, ATS analysis, company research, interview prep, and skill-gap analysis.
+AI-powered career assistant — planned agents for resume generation, ATS analysis, company research, interview prep, and skill-gap analysis.
 
 `Next.js` `Fastify / TypeScript` `PostgreSQL` `Prisma` `Redis` `BullMQ` `AI APIs`
 **Status:** 🟢 Active Development
 
-[Full case study →](./.github/profile/projects.md#careeros-ai) &nbsp;|&nbsp; 🔒 Private repository
+[Full case study →](./.github/profile/projects.md#careeros-ai) &nbsp;|&nbsp; 🔒 Private repository — happy to walk through the code and design decisions live in an interview
 
 </td>
 </tr>
@@ -147,10 +145,10 @@ Global AI-powered career operating system — ten specialized agents covering re
 <td width="50%" valign="top">
 
 ### 🌱 Green Habit Tracker
-Sustainability and habit-tracking platform — user dashboards, CO₂ tracking, leaderboard, and NGO support.
+Sustainability and habit-tracking web app — dashboards, CO₂ tracking, leaderboard, and NGO support content.
 
-`HTML` `CSS` `JavaScript` `Firebase` `Node.js` `MySQL`
-**Status:** ✅ Completed
+`HTML` `Tailwind CSS` `JavaScript` `Firebase` `Cloud Firestore`
+**Status:** ✅ Completed (frontend-focused)
 
 [Repository →](https://github.com/Abhay924/Green-Habit-) &nbsp;|&nbsp; [Case study →](./.github/profile/projects.md#green-habit-tracker)
 
@@ -171,10 +169,10 @@ Inventory and dairy management app — authentication, product management, payme
 <td width="50%" valign="top">
 
 ### 🛒 E-Commerce Microservices Platform
-14-service backend — Spring Boot, Keycloak auth, event-driven order flow via Kafka, full observability stack.
+Multi-service backend built to practice event-driven architecture — Spring Boot, Keycloak auth, order flow via Kafka.
 
 `Java 21` `Spring Boot 3` `Kafka` `Redis` `Elasticsearch` `Docker`
-**Status:** ✅ Completed
+**Status:** ✅ Completed (learning project)
 
 [Case study →](./.github/profile/projects.md#ecommerce-microservices-platform) &nbsp;|&nbsp; 🔒 Private repository
 
@@ -182,7 +180,7 @@ Inventory and dairy management app — authentication, product management, payme
 <td width="50%" valign="top">
 
 ### 🏢 Nexyra Systems Website
-Software company website — service showcase, AI chatbot integration, premium responsive UI.
+Company website — service showcase, AI chatbot integration, responsive UI.
 
 `Next.js` `React` `Tailwind CSS` `Node.js` `MongoDB` `OpenAI API`
 **Status:** 🟢 Active
@@ -193,7 +191,7 @@ Software company website — service showcase, AI chatbot integration, premium r
 </tr>
 </table>
 
-<sub>Each case study covers architecture, folder structure, challenges, lessons learned, and roadmap — in <a href="./.github/profile/projects.md"><code>projects.md</code></a>.</sub>
+<sub>Each case study covers architecture, folder structure, and what I'd do differently next time — in <a href="./.github/profile/projects.md"><code>projects.md</code></a>.</sub>
 
 <br/>
 
@@ -222,10 +220,6 @@ Software company website — service showcase, AI chatbot integration, premium r
 <img src="./.github/metrics/coding-habits.svg" width="49%" alt="Coding Habits" />
 <img src="./.github/metrics/contribution-metrics.svg" width="49%" alt="Contribution Insights" />
 
-<div align="center">
-<sub>All figures above are rendered live by official GitHub stats services or generated by the <code>metrics.yml</code> workflow — nothing on this page is hardcoded.</sub>
-</div>
-
 <br/>
 
 ##  Engineering Timeline
@@ -236,8 +230,8 @@ Software company website — service showcase, AI chatbot integration, premium r
 |---|---|
 | **2023** | Started learning programming and web development |
 | **2024** | Built multiple frontend and backend projects; strengthened Java fundamentals |
-| **2025** | Began building full-stack applications, AI integrations, and scalable backend systems |
-| **2026** | Built CareerOS AI, the e-commerce microservices platform, Green Habit Tracker, Smart Dairy Store, and Nexyra Systems — while preparing for software engineering roles |
+| **2025** | Began building full-stack applications and AI integrations |
+| **2026** | Building CareerOS AI, an e-commerce microservices learning project, Green Habit Tracker, Smart Dairy Store, and Nexyra Systems — while preparing for software engineering interviews |
 
 <br/>
 
@@ -245,9 +239,9 @@ Software company website — service showcase, AI chatbot integration, premium r
 
 - [x] Java fundamentals and object-oriented design
 - [x] Full-stack development with React and Node.js
-- [x] Spring Boot — building production-style microservices
-- [ ] System Design — deepening scalable architecture patterns
-- [ ] Cloud & CI/CD — AWS, Kubernetes in production contexts
+- [x] Spring Boot — building learning-scale microservices
+- [ ] System Design — scalable architecture patterns
+- [ ] Cloud & CI/CD — AWS, Kubernetes fundamentals
 - [ ] Contributing to open-source Java / Spring projects
 
 <br/>
@@ -263,8 +257,6 @@ Software company website — service showcase, AI chatbot integration, premium r
 <td align="center" width="20%">🧩<br/><b>Full Stack Development</b></td>
 </tr>
 </table>
-
-<sub>Issuers and dates shown only where verifiable.</sub>
 
 <br/>
 
@@ -283,7 +275,5 @@ Software company website — service showcase, AI chatbot integration, premium r
 <img src="./assets/footer-wave.svg" width="100%" alt="Footer" />
 
 <div align="center">
-<sub>⚡ Built with handcrafted SVG dashboards and zero fabricated metrics.</sub>
-<br/>
-<sub>🔄 Auto-synced via GitHub Actions — see <code>.github/workflows/</code></sub>
+<sub>🔄 Stats and activity graphs above update automatically via GitHub Actions — see <code>.github/workflows/</code></sub>
 </div>
