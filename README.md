@@ -208,21 +208,56 @@ Company website — service showcase, AI chatbot integration, responsive UI.
 
 ##  Engineering Analytics
 
-<!-- GitHub Stats -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abhay924&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=1800" />
+<!-- ========================= Engineering Analytics ========================= -->
 
-<!-- Top Languages -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhay924&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhay924&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="49%" alt="Top Languages" />
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&section=header&text=Engineering%20Analytics&fontSize=42&fontAlign=50&fontAlignY=38&animation=twinkling&fontColor=ffffff&color=0:4F46E5,30:7C3AED,60:06B6D4,100:22C55E"/>
+</p>
 
-<img width="100%" src="https://streak-stats.demolab.com?user=Abhay924&theme=tokyonight&hide_border=true" />
+<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhay924&theme=react-dark&hide_border=true&bg_color=0D1117&color=A78BFA&line=A78BFA&point=FFFFFF" width="100%" alt="Recent Activity" />
+### 📈 Contribution Activity
 
-<img src="./.github/metrics/coding-habits.svg" width="49%" alt="Coding Habits" />
-<img src="./.github/metrics/contribution-metrics.svg" width="49%" alt="Contribution Insights" />
+<!-- Activity Graph -->
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abhay924&theme=tokyo-night&hide_border=true"/>
 
-<br/>
+<br><br>
+
+### 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake.svg">
+  <img width="100%"
+       alt="GitHub Contribution Snake"
+       src="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake-dark.svg">
+</picture>
+
+<br><br>
+
+### 🚀 Profile Highlights
+
+<img src="https://komarev.com/ghpvc/?username=Abhay924&label=Profile%20Views&style=for-the-badge&color=7C3AED"/>
+
+<img src="https://img.shields.io/github/followers/Abhay924?style=for-the-badge&logo=github&label=Followers&color=7C3AED"/>
+
+<img src="https://img.shields.io/badge/Open%20Source-Enthusiast-7C3AED?style=for-the-badge&logo=github"/>
+
+<img src="https://img.shields.io/badge/Always-Building-00C853?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Always-Learning-2196F3?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Clean-Code-FF9800?style=for-the-badge"/>
+
+</div>
+
+<p align="center">
+  <i>✨ Every commit represents a step toward building impactful software.</i>
+</p>
+
+
 
 
 ## 🚀 Engineering Timeline
