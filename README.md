@@ -6,7 +6,7 @@
 
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1500&color=00D9FF&center=true&vCenter=true&width=900&lines=Software+Engineer;Full Stack Developer;Backend+Developer;Java+%7C+Spring+Boot+%7C+React;Building+AI-Powered+Applications;Always+Learning+and+Improving" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=34&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&repeat=true&width=1450&height=70&lines=👋+Hi,+I'm+Abhay+Kushwaha;💼+Software+Engineer+%7C+Full+Stack+Developer;☕+Java+•+🌱+Spring+Boot+•+🔐+Spring+Security;⚛️+React+•+▲+Next.js+•+🔷+TypeScript;🟢+Node.js+•+🗄️+PostgreSQL+•+🐳+Docker;🔗+REST+APIs+•+⚡+Backend+Architecture;🤖+Building+AI-Powered+Applications;☁️+Cloud+•+🏗️+System+Design;🚀+Building+Production-Ready+Software;✨+Clean+Code+•+Scalable+Systems+•+Continuous+Learning" alt="Typing SVG" />
 </p>
 
 <p align="center">
