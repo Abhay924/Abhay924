@@ -2,14 +2,11 @@
 
 <img src="./assets/hero-banner.svg" width="100%" alt="Abhay Kushwaha — Software Engineer" />
 
-<br/>
+<br><br>
 
+<img src="https://readme-typing-svg.demolab.com/?font=Space+Grotesk&weight=700&size=34&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&repeat=true&width=1450&height=70&lines=%F0%9F%91%8B+Hi,+I%27m+Abhay+Kushwaha;%F0%9F%92%BC+Software+Engineer+%7C+Full+Stack+Developer;%E2%98%95+Java+%E2%80%A2+%F0%9F%8C%B1+Spring+Boot+%E2%80%A2+%F0%9F%94%90+Spring+Security;%E2%9A%9B%EF%B8%8F+React+%E2%80%A2+%E2%96%B2+Next.js+%E2%80%A2+%F0%9F%94%B7+TypeScript;%F0%9F%9F%A2+Node.js+%E2%80%A2+%F0%9F%97%84%EF%B8%8F+PostgreSQL+%E2%80%A2+%F0%9F%90%B3+Docker;%F0%9F%94%97+REST+APIs+%E2%80%A2+%E2%9A%A1+Backend+Architecture;%F0%9F%A4%96+Building+AI-Powered+Applications;%E2%98%81%EF%B8%8F+Cloud+%E2%80%A2+%F0%9F%8F%97%EF%B8%8F+System+Design;%F0%9F%9A%80+Building+Production-Ready+Software;%E2%9C%A8+Clean+Code+%E2%80%A2+Scalable+Systems+%E2%80%A2+Continuous+Learning%22%20alt=%22Typing%20SVG"/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=34&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&repeat=true&width=1450&height=70&lines=👋+Hi,+I'm+Abhay+Kushwaha;💼+Software+Engineer+%7C+Full+Stack+Developer;☕+Java+•+🌱+Spring+Boot+•+🔐+Spring+Security;⚛️+React+•+▲+Next.js+•+🔷+TypeScript;🟢+Node.js+•+🗄️+PostgreSQL+•+🐳+Docker;🔗+REST+APIs+•+⚡+Backend+Architecture;🤖+Building+AI-Powered+Applications;☁️+Cloud+•+🏗️+System+Design;🚀+Building+Production-Ready+Software;✨+Clean+Code+•+Scalable+Systems+•+Continuous+Learning" alt="Typing SVG" />
-</p>
-
-<p align="center">
+<br><br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abhay924)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhay-kushwaha-715b20305)
