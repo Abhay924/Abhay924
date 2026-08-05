@@ -431,17 +431,33 @@ Modern corporate website featuring responsive design, AI chatbot integration, in
 
 <br/>
 
-##  Certifications
+## 🏅 Certifications
 
-<table align="center">
-<tr>
-<td align="center" width="20%">☁️<br/><b>IBM AI Fundamentals</b></td>
-<td align="center" width="20%">🗄️<br/><b>SQL (Intermediate)</b><br/><sub>HackerRank</sub></td>
-<td align="center" width="20%">☕<br/><b>Java Programming</b></td>
-<td align="center" width="20%">🤖<br/><b>AI Foundation</b></td>
-<td align="center" width="20%">🧩<br/><b>Full Stack Development</b></td>
-</tr>
-</table>
+<div align="center">
+
+| | Certification | Issuer / Platform | Focus |
+|:---:|---|---|---|
+| ☁️ | **IBM AI Fundamentals** | IBM | Artificial Intelligence |
+| 🗄️ | **SQL (Intermediate)** | HackerRank | SQL & Databases |
+| 🐍 | **Python (Basic)** | HackerRank | Python Programming |
+| ☕ | **Java Programming** | Oracle | Java Development |
+| 🤖 | **AI Foundation** | IBM | AI Fundamentals |
+| 🧩 | **Full Stack Development** | FreeCodeCamp | Web Development |
+| 🌐 | **Networking Basics** | Cisco Networking Academy | Computer Networks |
+
+</div>
+
+<br/>
+
+<div align="center">
+
+`Artificial Intelligence` • `Java` • `Python` • `SQL` • `Full Stack` • `Networking`
+
+</div>
+
+<sub>
+💡 Continuously strengthening my software engineering fundamentals through industry-recognized learning and hands-on development.
+</sub>
 
 <br/>
 
@@ -449,16 +465,22 @@ Modern corporate website featuring responsive design, AI chatbot integration, in
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abhay924)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhay-kushwaha-715b20305)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhaykushwaha06@gmail.com)
+
+<a href="https://github.com/Abhay924">
+<img src="https://img.shields.io/badge/Follow%20Me-FF0080?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="https://linkedin.com/in/abhay-kushwaha-715b20305">
+<img src="https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="mailto:abhaykushwaha06@gmail.com">
+<img src="https://img.shields.io/badge/Email-FF4D4D?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
 
 </div>
 
 <br/>
 
 <img src="./assets/footer-wave.svg" width="100%" alt="Footer" />
-
-<div align="center">
-<sub>🔄 Stats and activity graphs above update automatically via GitHub Actions — see <code>.github/workflows/</code></sub>
-</div>
