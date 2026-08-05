@@ -6,7 +6,7 @@
 
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1500&color=00D9FF&center=true&vCenter=true&width=900&lines=Software+Engineer;Backend+Developer;Java+%7C+Spring+Boot+%7C+React;Building+AI-Powered+Applications;Always+Learning+and+Improving" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1500&color=00D9FF&center=true&vCenter=true&width=900&lines=Software+Engineer;Full Stack Developer;Backend+Developer;Java+%7C+Spring+Boot+%7C+React;Building+AI-Powered+Applications;Always+Learning+and+Improving" />
 </p>
 
 <p align="center">
