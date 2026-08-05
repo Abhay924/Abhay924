@@ -1,197 +1,345 @@
+
+
+
+
 <div align="center">
+
 <img src="./assets/hero-banner.svg" width="100%" alt="Abhay Kushwaha — Software Engineer" />
+
 <br/>
+
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1500&color=00D9FF&center=true&vCenter=true&width=900&lines=Software+Engineer;Backend+Developer;Java+%7C+Spring+Boot+%7C+React;Building+AI-Powered+Applications;Always+Learning+and+Improving" />
+</p>
+
+<p align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abhay924)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abhay-kushwaha-715b20305)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhaykushwaha06@gmail.com)
 
-<sub>📍 Kanpur, Uttar Pradesh, India &nbsp;·&nbsp; 🎓 Final Year B.Tech CSE, Graduating 2027</sub>
+</p>
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=Abhay924&style=for-the-badge&color=0E75B6"/>
+
+<img src="https://img.shields.io/github/followers/Abhay924?style=for-the-badge&logo=github"/>
+
+<img src="https://img.shields.io/github/stars/Abhay924?style=for-the-badge"/>
+
+</p>
+
+<sub>
+📍 Kanpur, Uttar Pradesh, India &nbsp;•&nbsp;
+🎓 Final Year B.Tech Computer Science Engineering (2023–2027)
+</sub>
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="./assets/cyber-dashboard.svg" width="100%" alt="Engineering Status Bar" />
+<img src="./assets/cyber-dashboard.svg" width="100%" alt="Engineering Dashboard"/>
 </div>
 
 <br/><br/>
 
-##  System Identity
+# 🖥️ System Identity
 
-<img src="./assets/developer-terminal.svg" width="100%" alt="Developer Terminal" />
+<img src="./assets/developer-terminal.svg" width="100%" alt="Developer Terminal"/>
 
 <br/>
 
-##  About
+# 👨‍💻 About Me
 
 <table>
 <tr>
+
 <td width="58%" valign="top">
 
-Final-year CSE student building full-stack and backend projects with **Java**, **Spring Boot**, **React**, **Next.js**, **PostgreSQL**, and **Docker**. Currently focused on strengthening backend fundamentals and moving from project-based learning toward production-grade engineering practices.
+Final-year **Computer Science Engineering** student passionate about building **scalable backend systems**, **modern full-stack web applications**, and **AI-powered products**.
 
-Interested in **backend engineering**, **software architecture**, and **AI-powered applications** — actively working toward deeper knowledge of system design and distributed systems (see roadmap below).
+My primary stack includes **Java**, **Spring Boot**, **React**, **Next.js**, **PostgreSQL**, and **Docker**. I enjoy designing clean architectures, writing maintainable code, and continuously improving my engineering skills through real-world projects.
+
+Currently focused on strengthening backend engineering fundamentals while learning **System Design**, **Cloud Technologies**, and **production-ready software development**.
+
 <br/>
 
 | | |
 |---|---|
-| 🔭 **Building** | CareerOS AI — an AI-powered career assistant |
-| 🌱 **Learning** | System design fundamentals, Docker/Kubernetes basics |
-| 💬 **Ask me about** | Java, Spring Boot, full-stack project architecture |
-| 📫 **Reach me** | abhaykushwaha06@gmail.com |
-| 🎓 **Graduating** | 2027 — B.Tech, Computer Science Engineering |
+| 🚀 **Building** | CareerOS AI — AI-powered Career Platform |
+| 🌱 **Learning** | System Design, Docker, Kubernetes |
+| 💡 **Interests** | Backend Engineering, Cloud, AI |
+| 💬 **Ask Me About** | Java, Spring Boot, REST APIs, React |
+| 📫 **Email** | abhaykushwaha06@gmail.com |
+| 🎓 **Graduation** | B.Tech CSE • 2027 |
 
 </td>
+
 <td width="42%" valign="top">
 
-<img src="./assets/ai-core.svg" width="100%" alt="AI Core" />
+<img src="./assets/ai-core.svg" width="100%" alt="AI Core"/>
 
 </td>
+
 </tr>
 </table>
 
 <br/>
 
-##  Infrastructure Overview
+# 🏗️ Infrastructure Overview
 
-<img src="./assets/network-architecture.svg" width="100%" alt="Infrastructure Overview" />
+<img src="./assets/network-architecture.svg" width="100%" alt="Infrastructure Overview"/>
 
-<sub>The general shape I follow across projects — separate frontend, an API layer, and persistent storage, containerized where the project calls for it.</sub>
+<sub>
+Typical architecture used across my projects—modern frontend, REST APIs, relational databases, and containerized deployments with Docker.
+</sub>
 
 <br/>
 
-##  Technology Stack
 
-<img src="./assets/tech-stack.svg" width="100%" alt="Tech Stack" />
+
+<br/>
+
+## 🛠️ Technology Stack
+
+<img src="./assets/tech-stack.svg" width="100%" alt="Technology Stack"/>
+
+<br/>
 
 <table align="center">
 <tr>
-<td valign="top" width="25%">
 
-**Languages**
+<td width="25%" valign="top">
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+### 💻 Languages
 
-</td>
-<td valign="top" width="25%">
+<p align="center">
+<img src="https://skillicons.dev/icons?i=java,js,ts,python,cpp"/>
+</p>
 
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+<p align="center">
+Java • JavaScript • TypeScript • Python • C++ • SQL
+</p>
 
 </td>
-<td valign="top" width="25%">
 
-**Backend**
+<td width="25%" valign="top">
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logo=fastapi&logoColor=white)
+### 🎨 Frontend
 
-</td>
-<td valign="top" width="25%">
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,bootstrap"/>
+</p>
 
-**Data & DevOps**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<p align="center">
+React • Next.js • Tailwind CSS • Bootstrap
+</p>
 
 </td>
+
+<td width="25%" valign="top">
+
+### ⚙️ Backend
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=spring,nodejs,express"/>
+</p>
+
+<p align="center">
+Spring Boot • Node.js • Express.js • REST APIs
+</p>
+
+</td>
+
+<td width="25%" valign="top">
+
+### ☁️ Data & DevOps
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,firebase,redis,docker"/>
+</p>
+
+<p align="center">
+PostgreSQL • MongoDB • MySQL • Firebase • Redis • Docker
+</p>
+
+</td>
+
 </tr>
 </table>
+
+<br/>
 
 <div align="center">
-<sub><b>Tooling:</b> Git · GitHub Actions · VS Code · IntelliJ IDEA · Postman · Render · Vercel · Linux</sub>
-</div>
+
+### 🧰 Development Toolkit
+
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,idea,postman,docker,linux,vercel"/>
 
 <br/>
 
-##  Projects
+<sub>
+
+Git • GitHub • GitHub Actions • VS Code • IntelliJ IDEA • Postman • Docker • Linux • Vercel
+
+</sub>
+
+</div>
+
+---
+
+## 🚀 Featured Projects
 
 <table>
+
 <tr>
+
 <td width="100%" valign="top">
 
-### 🧠 CareerOS AI — Flagship Project
-AI-powered career assistant — planned agents for resume generation, ATS analysis, company research, interview prep, and skill-gap analysis.
+### ⭐ CareerOS AI <sup>Flagship Project</sup>
 
-`Next.js` `Fastify / TypeScript` `PostgreSQL` `Prisma` `Redis` `BullMQ` `AI APIs`
+AI-powered career platform that helps students prepare for software engineering roles through intelligent resume analysis, ATS optimization, company research, interview preparation, and personalized learning paths.
+
+#### Tech Stack
+
+`Next.js` • `Fastify` • `TypeScript` • `PostgreSQL` • `Prisma` • `Redis` • `BullMQ` • `OpenAI API`
+
+#### Key Highlights
+
+- 🤖 AI Resume Analysis
+- 📄 ATS Compatibility Checker
+- 🏢 Company Research
+- 🎯 Interview Preparation
+- 📊 Skill Gap Analysis
+- 🧩 Modular Backend Architecture
+
 **Status:** 🟢 Active Development
 
-[Full case study →](./.github/profile/projects.md#careeros-ai) &nbsp;|&nbsp; 🔒 Private repository — happy to walk through the code and design decisions live in an interview
+📖 **Case Study:** `./.github/profile/projects.md#careeros-ai`
+
+🔒 **Repository:** Available during technical interviews.
 
 </td>
+
 </tr>
+
 </table>
 
 <br/>
 
 <table>
+
 <tr>
+
 <td width="50%" valign="top">
 
 ### 🌱 Green Habit Tracker
-Sustainability and habit-tracking web app — dashboards, CO₂ tracking, leaderboard, and NGO support content.
 
-`HTML` `Tailwind CSS` `JavaScript` `Firebase` `Cloud Firestore`
-**Status:** ✅ Completed (frontend-focused)
+Sustainability-focused web platform for habit tracking, environmental awareness, CO₂ analytics, leaderboards, and community engagement.
 
-[Repository →](https://github.com/Abhay924/Green-Habit-) &nbsp;|&nbsp; [Case study →](./.github/profile/projects.md#green-habit-tracker)
+#### Tech Stack
+
+`HTML` • `Tailwind CSS` • `JavaScript` • `Firebase`
+
+**Status:** ✅ Completed
+
+🔗 **Repository:**  
+[Green Habit Tracker](https://github.com/Abhay924/Green-Habit-)
+
+📖 **Case Study:**  
+`./.github/profile/projects.md#green-habit-tracker`
 
 </td>
+
 <td width="50%" valign="top">
 
-### E-Commerce Web Application
-Inventory and item management app — authentication, product management, payment integration, admin dashboard.
+### 🛒 Smart Dairy Store
 
-`React Native` `Node.js` `Express.js` `MongoDB` `Firebase` `Razorpay`
-**Status:** 🟡 In Development
+Full-stack retail management platform featuring authentication, inventory management, payment integration, order processing, and an administrative dashboard.
 
-[Case study →](./.github/profile/projects.md#smart-dairy-store) &nbsp;|&nbsp; 🔒 Private repository
+#### Tech Stack
+
+`React Native` • `Node.js` • `Express.js` • `MongoDB` • `Firebase` • `Razorpay`
+
+**Status:** 🟡 In Progress
+
+🔒 **Repository:** Private
+
+📖 **Case Study:**  
+`./.github/profile/projects.md#smart-dairy-store`
 
 </td>
+
 </tr>
+
 <tr>
+
 <td width="50%" valign="top">
 
-### 🛒 E-Commerce Microservices Platform
-Multi-service backend built to practice event-driven architecture — Spring Boot, Keycloak auth, order flow via Kafka.
+### ⚙️ E-Commerce Microservices
 
-`Java 21` `Spring Boot 3` `Kafka` `Redis` `Elasticsearch` `Docker`
-**Status:** ✅ Completed (learning project)
+Learning project focused on building scalable backend services using an event-driven microservices architecture.
 
-[Case study →](./.github/profile/projects.md#ecommerce-microservices-platform) &nbsp;|&nbsp; 🔒 Private repository
+#### Tech Stack
+
+`Java 21` • `Spring Boot 3` • `Kafka` • `Redis` • `Elasticsearch` • `Docker`
+
+#### Engineering Concepts
+
+- Event-Driven Architecture
+- Microservices
+- Keycloak Authentication
+- Containerization
+- Distributed Messaging
+
+**Status:** ✅ Completed
+
+🔒 **Repository:** Private
+
+📖 **Case Study:**  
+`./.github/profile/projects.md#ecommerce-microservices-platform`
 
 </td>
+
 <td width="50%" valign="top">
 
-### 🏢 Nexyra Systems Website
-Company website — service showcase, AI chatbot integration, responsive UI.
+### 🏢 Nexyra Systems
 
-`Next.js` `React` `Tailwind CSS` `Node.js` `MongoDB` `OpenAI API`
+Modern corporate website featuring responsive design, AI chatbot integration, inquiry management, and SEO optimization.
+
+#### Tech Stack
+
+`Next.js` • `React` • `Tailwind CSS` • `Node.js` • `MongoDB`
+
 **Status:** 🟢 Active
 
-[Live site →](https://nexyrasystems.com) &nbsp;|&nbsp; [Case study →](./.github/profile/projects.md#nexyra-systems-website)
+🌐 **Live Website:**  
+[nexyrasystems.com](https://nexyrasystems.com)
+
+📖 **Case Study:**  
+`./.github/profile/projects.md#nexyra-systems-website`
 
 </td>
+
 </tr>
+
 </table>
 
-<sub>Each case study covers architecture, folder structure, and what I'd do differently next time — in <a href="./.github/profile/projects.md"><code>projects.md</code></a>.</sub>
+<br/>
+
+<div align="center">
+
+> 💡 **Every project documents its architecture, technical decisions, implementation approach, trade-offs, challenges, and lessons learned—showcasing the engineering process, not just the final outcome.**
 
 <br/>
+
+*"Building software that is reliable, scalable, and designed to solve real-world problems."*
+
+</div>
+
+<br><br>
 
 ##  Architecture References
 
