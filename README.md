@@ -208,10 +208,14 @@ Company website — service showcase, AI chatbot integration, responsive UI.
 
 ##  Engineering Analytics
 
-<img src="https://github-readme-stats.vercel.app/api?username=Abhay924&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=A78BFA&text_color=C9D1D9" width="49%" alt="GitHub Stats" />
+<!-- GitHub Stats -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Abhay924&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=1800" />
+
+<!-- Top Languages -->
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhay924&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhay924&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="49%" alt="Top Languages" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhay924&theme=radical&hide_border=true&background=0D1117&stroke=A78BFA&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" width="100%" alt="GitHub Streak" />
+<img width="100%" src="https://streak-stats.demolab.com?user=Abhay924&theme=tokyonight&hide_border=true" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Abhay924&theme=react-dark&hide_border=true&bg_color=0D1117&color=A78BFA&line=A78BFA&point=FFFFFF" width="100%" alt="Recent Activity" />
 
