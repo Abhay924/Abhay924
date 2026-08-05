@@ -1,12 +1,9 @@
-
-
-
-
 <div align="center">
 
 <img src="./assets/hero-banner.svg" width="100%" alt="Abhay Kushwaha — Software Engineer" />
 
 <br/>
+
 
 <p align="center">
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1500&color=00D9FF&center=true&vCenter=true&width=900&lines=Software+Engineer;Backend+Developer;Java+%7C+Spring+Boot+%7C+React;Building+AI-Powered+Applications;Always+Learning+and+Improving" />
@@ -87,6 +84,8 @@ Currently focused on strengthening backend engineering fundamentals while learni
 </table>
 
 <br/>
+
+
 
 # 🏗️ Infrastructure Overview
 
@@ -365,9 +364,9 @@ Modern corporate website featuring responsive design, AI chatbot integration, in
 <div align="center">
 
 ### 📈 Contribution Activity
-
+<img width="100%" src="https://streak-stats.demolab.com?user=Abhay924&theme=tokyonight&hide_border=true"/>
 <!-- Activity Graph -->
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abhay924&theme=tokyo-night&hide_border=true"/>
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abhay924&bg_color=1a1b27&color=70a5fd&line=38bdae&point=ffffff&area=true&hide_border=true"/>
 
 <br><br>
 
