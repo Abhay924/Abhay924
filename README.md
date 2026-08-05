@@ -153,8 +153,8 @@ Sustainability and habit-tracking web app — dashboards, CO₂ tracking, leader
 </td>
 <td width="50%" valign="top">
 
-### 🥛 Smart Dairy Store
-Inventory and dairy management app — authentication, product management, payment integration, admin dashboard.
+### E-Commerce Web Application
+Inventory and item management app — authentication, product management, payment integration, admin dashboard.
 
 `React Native` `Node.js` `Express.js` `MongoDB` `Firebase` `Razorpay`
 **Status:** 🟡 In Development
@@ -220,17 +220,18 @@ Company website — service showcase, AI chatbot integration, responsive UI.
 
 <br/>
 
-##  Engineering Timeline
 
+## 🚀 Engineering Timeline
 <img src="./assets/timeline.svg" width="100%" alt="Engineering Timeline" />
 
-| Year | Milestone |
-|---|---|
-| **2023** | Started learning programming and web development |
-| **2024** | Built multiple frontend and backend projects; strengthened Java fundamentals |
-| **2025** | Began building full-stack applications and AI integrations |
-| **2026** | Building CareerOS AI, an e-commerce microservices learning project, Green Habit Tracker, Smart Dairy Store, and Nexyra Systems — while preparing for software engineering interviews |
 
+
+| Year | Milestone |
+|------|-----------|
+| **2023** | Started B.Tech in Computer Science & Engineering. Learned C, C++, HTML, CSS, JavaScript, Git/GitHub, and programming fundamentals. |
+| **2024** | Built frontend applications with React.js and backend APIs using Node.js & Express.js. Strengthened problem-solving skills through DSA while improving DBMS, OOPs, and SQL concepts. |
+| **2025** | Developed full-stack MERN applications using MongoDB and Firebase. Built projects including Green Habit Tracker and gained experience with REST APIs, authentication, and cloud deployment. |
+| **2026** | Building scalable applications such as CareerOS AI, Smart Dairy Store, and Nexyra Systems while preparing for Software Engineer roles by strengthening DSA, backend development, and system design. |
 <br/>
 
 ##  Learning Roadmap
