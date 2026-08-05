@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" preserveAspectRatio="none">
+
+  <defs>
+    <linearGradient id="ocean" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="220" fill="#0D1117"/>
+
+  <!-- Title -->
+  <text x="600"
+        y="55"
+        text-anchor="middle"
+        font-size="34"
+        font-family="Segoe UI,Arial,sans-serif"
+        font-weight="700"
+        fill="#FFFFFF"
+        filter="url(#glow)">
+    Thanks for visiting my GitHub Profile 🚀
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600"
+        y="90"
+        text-anchor="middle"
+        font-size="18"
+        font-family="Segoe UI,Arial,sans-serif"
+        fill="#CBD5E1">
+    Always Learning • Always Building • Always Improving
+  </text>
+
+  <!-- Wave 1 -->
+  <path fill="#1E3A8A" opacity="0.25">
+    <animate attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      values="
+M0,120 C250,170 450,70 700,120 C950,170 1100,70 1200,120 L1200,220 L0,220 Z;
+M0,100 C250,50 450,150 700,100 C950,50 1100,150 1200,100 L1200,220 L0,220 Z;
+M0,120 C250,170 450,70 700,120 C950,170 1100,70 1200,120 L1200,220 L0,220 Z"/>
+  </path>
+
+  <!-- Wave 2 -->
+  <path fill="#2563EB" opacity="0.45">
+    <animate attributeName="d"
+      dur="8s"
+      repeatCount="indefinite"
+      values="
+M0,140 C300,190 500,90 750,140 C1000,190 1100,90 1200,140 L1200,220 L0,220 Z;
+M0,120 C300,70 500,170 750,120 C1000,70 1100,170 1200,120 L1200,220 L0,220 Z;
+M0,140 C300,190 500,90 750,140 C1000,190 1100,90 1200,140 L1200,220 L0,220 Z"/>
+  </path>
+
+  <!-- Wave 3 -->
+  <path fill="url(#ocean)">
+    <animate attributeName="d"
+      dur="5s"
+      repeatCount="indefinite"
+      values="
+M0,160 C250,110 500,210 750,160 C1000,110 1100,210 1200,160 L1200,220 L0,220 Z;
+M0,140 C250,190 500,90 750,140 C1000,190 1100,90 1200,140 L1200,220 L0,220 Z;
+M0,160 C250,110 500,210 750,160 C1000,110 1100,210 1200,160 L1200,220 L0,220 Z"/>
+  </path>
+
+</svg>
