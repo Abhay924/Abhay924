@@ -40,8 +40,7 @@
 </p>
 
 <br/>
-<br>
-<br/>
+
 
 <div align="center">
 <img src="./assets/cyber-dashboard.svg" width="100%" alt="Engineering Dashboard"/>
@@ -374,20 +373,6 @@ Modern corporate website featuring responsive design, AI chatbot integration, in
 <img width="100%" src="https://streak-stats.demolab.com?user=Abhay924&theme=tokyonight&hide_border=true"/>
 <!-- Activity Graph -->
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Abhay924&bg_color=1a1b27&color=70a5fd&line=38bdae&point=ffffff&area=true&hide_border=true"/>
-
-<br><br>
-
-### 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake.svg">
-  <img width="100%"
-       alt="GitHub Contribution Snake"
-       src="https://raw.githubusercontent.com/Abhay924/Abhay924/output/github-contribution-grid-snake-dark.svg">
-</picture>
 
 <br><br>
 
