@@ -200,6 +200,42 @@ Git • GitHub • GitHub Actions • VS Code • IntelliJ IDEA • Postman • 
 <tr>
 <td width="100%" valign="top">
 
+### 🚗 Smart Parking System
+
+An ANPR-based smart parking project focused on automating vehicle entry, parking session tracking, billing, and payment verification before vehicle exit.
+
+#### Frontend
+`React` • `TypeScript` • `HTML5` • `CSS3`
+
+#### Backend & Database
+`Java 21` • `Spring Boot 3` • `Spring Security` • `Spring Data JPA` • `PostgreSQL` • `Flyway`
+
+#### Tools
+`Maven` • `Spring Actuator`
+
+#### Key Highlights
+
+- 🚘 Automatic Number Plate Recognition integration
+- 🅿️ Vehicle entry and parking session management
+- 🧾 Parking duration and fee calculation
+- 💳 Payment verification workflow before exit
+- 🗄️ Database persistence and schema migrations
+- 🩺 Backend health monitoring
+
+**Status:** 🟡 Active Development
+
+🔗 **Repository:** [Smart Parking](https://github.com/Abhay924/Smart_Parking-)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
 ### ⭐ CareerOS AI <sup>Flagship Project</sup>
 
 An AI-powered career platform in development, designed to help students prepare for software engineering roles through resume improvement, company research, interview preparation, and personalized learning guidance.
@@ -236,41 +272,12 @@ An AI-powered career platform in development, designed to help students prepare 
 <tr>
 <td width="50%" valign="top">
 
-### 🚗 Smart Parking System
-
-An ANPR-based smart parking project focused on automating vehicle entry, parking session tracking, billing, and payment verification before vehicle exit.
-
-#### Frontend
-`React` • `TypeScript` • `HTML5` • `CSS3`
-
-#### Backend & Database
-`Java 21` • `Spring Boot 3` • `Spring Security` • `Spring Data JPA` • `PostgreSQL` • `Flyway`
-
-#### Tools
-`Maven` • `Spring Actuator`
-
-#### Key Highlights
-
-- 🚘 Automatic Number Plate Recognition integration
-- 🅿️ Vehicle entry and parking session management
-- 🧾 Parking duration and fee calculation
-- 💳 Payment verification workflow before exit
-- 🗄️ Database persistence and schema migrations
-- 🩺 Backend health monitoring
-
-**Status:** 🟡 Active Development
-
-🔗 **Repository:** [Smart Parking](https://github.com/Abhay924/Smart_Parking-)
-
-</td>
-<td width="50%" valign="top">
-
 ### 🌱 Green Habit Tracker
 
 A sustainability-focused application designed to help users track eco-friendly habits, build consistent routines, and monitor progress toward a greener lifestyle.
 
-#### Stack Techonology
-`HTML` `CSS` `JavaScript`
+#### Stack Technology
+`HTML` • `CSS` • `JavaScript`
 
 #### Key Highlights
 
@@ -280,14 +287,11 @@ A sustainability-focused application designed to help users track eco-friendly h
 - 🔥 Encourage consistency through habit streaks
 - 🌍 Promote environmentally responsible choices
 
-**Status:** 🟡 Update According to Current Progress
+**Status:** 🟡 In Development
 
-🔗 **Repository:** [Green Habit Tracker]([ADD_YOUR_REPOSITORY_URL](https://github.com/Abhay924/Green-Habit-))
+🔗 **Repository:** [Green Habit Tracker](https://github.com/Abhay924/Green-Habit-)
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 📊 E-Commerce Business Analytics
@@ -312,6 +316,9 @@ A SQL-focused analytics project designed to explore e-commerce data, investigate
 🔗 **Repository:** [E-Commerce Business Analytics](https://github.com/Abhay924/ecommerce-business-analytics)
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🏢 Nexyra Systems
@@ -337,9 +344,6 @@ The digital presence of Nexyra Systems, an IT services venture focused on buildi
 🌐 **Live Website:** [nexyrasystems.com](https://nexyrasystems.com)
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 💻 LeetCode Solutions
@@ -361,6 +365,9 @@ A public collection of coding practice solutions documenting progress in data st
 🔗 **Repository:** [LeetCode Solutions](https://github.com/Abhay924/leetcode-solutions)
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🎯 Engineering Focus
@@ -374,6 +381,9 @@ My focus is on solving real-world problems, writing maintainable code, understan
 - 🗄️ Database design and optimization
 - 🏗️ Scalable application architecture
 - 🧠 Data structures and algorithms
+
+</td>
+<td width="50%" valign="top">
 
 </td>
 </tr>
