@@ -197,145 +197,193 @@ Git • GitHub • GitHub Actions • VS Code • IntelliJ IDEA • Postman • 
 ## 🚀 Featured Projects
 
 <table>
-
 <tr>
-
 <td width="100%" valign="top">
 
 ### ⭐ CareerOS AI <sup>Flagship Project</sup>
 
-AI-powered career platform that helps students prepare for software engineering roles through intelligent resume analysis, ATS optimization, company research, interview preparation, and personalized learning paths.
+An AI-powered career platform in development, designed to help students prepare for software engineering roles through resume improvement, company research, interview preparation, and personalized learning guidance.
 
-#### Tech Stack
+#### Frontend
+`Next.js` • `React` • `TypeScript`
 
-`Next.js` • `Fastify` • `TypeScript` • `PostgreSQL` • `Prisma` • `Redis` • `BullMQ` • `OpenAI API`
+#### Backend & Database
+`NestJS` • `PostgreSQL` • `Prisma` • `JWT`
+
+#### Tools
+`Turborepo` • `pnpm` • `Git`
 
 #### Key Highlights
 
-- 🤖 AI Resume Analysis
-- 📄 ATS Compatibility Checker
-- 🏢 Company Research
-- 🎯 Interview Preparation
-- 📊 Skill Gap Analysis
-- 🧩 Modular Backend Architecture
+- 🤖 AI-powered career assistance
+- 📄 Resume analysis and ATS optimization roadmap
+- 🏢 Company and role research
+- 🎯 Interview preparation workflows
+- 📊 Skill-gap identification and learning guidance
+- 🔐 Authentication and modular API architecture
 
 **Status:** 🟢 Active Development
 
-📖 **Case Study:** `./.github/profile/projects.md#careeros-ai`
-
-🔒 **Repository:** Available during technical interviews.
+🔗 **Repository:** [CAREEROS-AI](https://github.com/Abhay924/CAREEROS-AI)
 
 </td>
-
 </tr>
-
 </table>
 
 <br/>
 
 <table>
-
 <tr>
+<td width="50%" valign="top">
 
+### 🚗 Smart Parking System
+
+An ANPR-based smart parking project focused on automating vehicle entry, parking session tracking, billing, and payment verification before vehicle exit.
+
+#### Frontend
+`React` • `TypeScript` • `HTML5` • `CSS3`
+
+#### Backend & Database
+`Java 21` • `Spring Boot 3` • `Spring Security` • `Spring Data JPA` • `PostgreSQL` • `Flyway`
+
+#### Tools
+`Maven` • `Spring Actuator`
+
+#### Key Highlights
+
+- 🚘 Automatic Number Plate Recognition integration
+- 🅿️ Vehicle entry and parking session management
+- 🧾 Parking duration and fee calculation
+- 💳 Payment verification workflow before exit
+- 🗄️ Database persistence and schema migrations
+- 🩺 Backend health monitoring
+
+**Status:** 🟡 Active Development
+
+🔗 **Repository:** [Smart Parking](https://github.com/Abhay924/Smart_Parking-)
+
+</td>
 <td width="50%" valign="top">
 
 ### 🌱 Green Habit Tracker
 
-Sustainability-focused web platform for habit tracking, environmental awareness, CO₂ analytics, leaderboards, and community engagement.
+A sustainability-focused application designed to help users track eco-friendly habits, build consistent routines, and monitor progress toward a greener lifestyle.
 
-#### Tech Stack
+#### Stack Techonology
+`HTML` `CSS` `Firebase` `Firestore`
 
-`HTML` • `Tailwind CSS` • `JavaScript` • `Firebase`
+#### Key Highlights
 
-**Status:** ✅ Completed
+- 🌿 Track eco-friendly daily habits
+- 🎯 Build consistent sustainable routines
+- 📊 Monitor habit completion and progress
+- 🔥 Encourage consistency through habit streaks
+- 🌍 Promote environmentally responsible choices
 
-🔗 **Repository:**  
-[Green Habit Tracker](https://github.com/Abhay924/Green-Habit-)
+**Status:** 🟡 Update According to Current Progress
 
-📖 **Case Study:**  
-`./.github/profile/projects.md#green-habit-tracker`
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🛒 Smart Dairy Store
-
-Full-stack retail management platform featuring authentication, inventory management, payment integration, order processing, and an administrative dashboard.
-
-#### Tech Stack
-
-`React Native` • `Node.js` • `Express.js` • `MongoDB` • `Firebase` • `Razorpay`
-
-**Status:** 🟡 In Progress
-
-🔒 **Repository:** Private
-
-📖 **Case Study:**  
-`./.github/profile/projects.md#smart-dairy-store`
+🔗 **Repository:** [Green Habit Tracker](ADD_YOUR_REPOSITORY_URL)
 
 </td>
-
 </tr>
 
 <tr>
-
 <td width="50%" valign="top">
 
-### ⚙️ E-Commerce Microservices
+### 📊 E-Commerce Business Analytics
 
-Learning project focused on building scalable backend services using an event-driven microservices architecture.
+A SQL-focused analytics project designed to explore e-commerce data, investigate business questions, and develop data-driven insights.
 
-#### Tech Stack
+#### Technologies
+`SQL` • `Relational Databases` • `Business Analytics`
 
-`Java 21` • `Spring Boot 3` • `Kafka` • `Redis` • `Elasticsearch` • `Docker`
+#### Analysis Areas
 
-#### Engineering Concepts
+- 💰 Revenue and sales analysis
+- 👥 Customer behavior analysis
+- 📦 Product performance
+- 📣 Marketing performance analysis
+- 📈 Cohort and retention analysis
+- 🎯 RFM customer segmentation
+- 🧮 Advanced SQL and window functions
 
-- Event-Driven Architecture
-- Microservices
-- Keycloak Authentication
-- Containerization
-- Distributed Messaging
+**Status:** 🟡 In Development
 
-**Status:** ✅ Completed
-
-🔒 **Repository:** Private
-
-📖 **Case Study:**  
-`./.github/profile/projects.md#ecommerce-microservices-platform`
+🔗 **Repository:** [E-Commerce Business Analytics](https://github.com/Abhay924/ecommerce-business-analytics)
 
 </td>
-
 <td width="50%" valign="top">
 
 ### 🏢 Nexyra Systems
 
-Modern corporate website featuring responsive design, AI chatbot integration, inquiry management, and SEO optimization.
+The digital presence of Nexyra Systems, an IT services venture focused on building web applications, software products, and AI-enabled solutions.
 
-#### Tech Stack
+#### Frontend
+`Next.js` • `React` • `Tailwind CSS`
 
-`Next.js` • `React` • `Tailwind CSS` • `Node.js` • `MongoDB`
+#### Backend & Database
+`Node.js` • `MongoDB`
+
+#### Key Highlights
+
+- 🌐 Corporate website and brand presence
+- 💻 Web and application development services
+- 🤖 AI-enabled solution concepts
+- 📩 Client inquiries and lead-generation workflows
+- 📱 Responsive user experience
 
 **Status:** 🟢 Active
 
-🌐 **Live Website:**  
-[nexyrasystems.com](https://nexyrasystems.com)
-
-📖 **Case Study:**  
-`./.github/profile/projects.md#nexyra-systems-website`
+🌐 **Live Website:** [nexyrasystems.com](https://nexyrasystems.com)
 
 </td>
-
 </tr>
 
+<tr>
+<td width="50%" valign="top">
+
+### 💻 LeetCode Solutions
+
+A public collection of coding practice solutions documenting progress in data structures, algorithms, and problem-solving.
+
+#### Focus Areas
+
+- 🧮 Arrays, strings, and hashing
+- 🔗 Linked lists and stacks
+- 🪟 Two pointers and sliding window
+- 🌳 Trees and graphs
+- 🧠 Algorithmic problem-solving
+
+**Language:** `Java`
+
+**Status:** 🟢 Ongoing Practice
+
+🔗 **Repository:** [LeetCode Solutions](https://github.com/Abhay924/leetcode-solutions)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎯 Engineering Focus
+
+My focus is on solving real-world problems, writing maintainable code, understanding architectural trade-offs, and continuously improving my software engineering skills.
+
+#### Core Interests
+
+- 🎨 Frontend and responsive UI development
+- ⚙️ Backend engineering and API development
+- 🗄️ Database design and optimization
+- 🏗️ Scalable application architecture
+- 🧠 Data structures and algorithms
+
+</td>
+</tr>
 </table>
 
 <br/>
 
 <div align="center">
 
-> 💡 **Every project documents its architecture, technical decisions, implementation approach, trade-offs, challenges, and lessons learned—showcasing the engineering process, not just the final outcome.**
+> 💡 **Building practical applications with clean interfaces, reliable backends, and maintainable architecture.**
 
 <br/>
 
@@ -343,7 +391,7 @@ Modern corporate website featuring responsive design, AI chatbot integration, in
 
 </div>
 
-<br><br>
+<br/><br/>
 
 ##  Architecture References
 
