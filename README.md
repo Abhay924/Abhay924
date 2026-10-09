@@ -270,7 +270,7 @@ An ANPR-based smart parking project focused on automating vehicle entry, parking
 A sustainability-focused application designed to help users track eco-friendly habits, build consistent routines, and monitor progress toward a greener lifestyle.
 
 #### Stack Techonology
-`HTML` `CSS` `Firebase` `Firestore`
+`HTML` `CSS` `JavaScript`
 
 #### Key Highlights
 
@@ -282,7 +282,7 @@ A sustainability-focused application designed to help users track eco-friendly h
 
 **Status:** 🟡 Update According to Current Progress
 
-🔗 **Repository:** [Green Habit Tracker](ADD_YOUR_REPOSITORY_URL)
+🔗 **Repository:** [Green Habit Tracker]([ADD_YOUR_REPOSITORY_URL](https://github.com/Abhay924/Green-Habit-))
 
 </td>
 </tr>
