@@ -235,6 +235,40 @@ An ANPR-based smart parking project focused on automating vehicle entry, parking
 <table>
 <tr>
 <td width="100%" valign="top">
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 🛍️ Full-Stack E-Commerce Application <sup>Production</sup>
+
+A comprehensive full-stack e-commerce platform featuring secure user authentication, a responsive product catalog, shopping cart functionality, and a fully live production architecture.
+
+#### Frontend
+`React` • `Vite` • `Tailwind CSS` • `Firebase Auth`
+
+#### Backend & Database
+`Java` • `Spring Boot` • `MySQL`
+
+#### Tools
+`Vercel` • `Railway` • `Maven` • `Git`
+
+#### Key Highlights
+
+- 🛒 End-to-end e-commerce product browsing and cart management workflows
+- 🔐 Secure user authentication and verification powered by Firebase
+- 🗄️ Robust relational data persistence using MySQL
+- 🚀 Production-grade deployment hosted live on Vercel and Railway
+- 📱 Responsive, modern Flipkart-inspired user interface
+
+**Status:** 🟢 Live / Production
+
+🔗 **Repository:** [Full-Stack E-Commerce](https://github.com/Abhay924/Full-Stack-E-commarce-)
+
+🌐 **Live App:** [ecommerce-frontend-lime-five.vercel.app](https://ecommerce-frontend-lime-five.vercel.app)
+
+</td>
+</tr>
+</table>
 
 ### ⭐ CareerOS AI <sup>Flagship Project</sup>
 
