@@ -194,26 +194,28 @@ Git • GitHub • GitHub Actions • VS Code • IntelliJ IDEA • Postman • 
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Works & Production Systems
 
-<table>
+<table width="100%">
 <tr>
 <td width="100%" valign="top">
 
-### 🚗 Smart Parking System &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Active_Development-yellow?style=flat-square)]()
+### 🛍️ Full-Scale E-Commerce Ecosystem &nbsp;&nbsp;[![Production](https://img.shields.io/badge/PRODUCTION-LIVE-00C853?style=for-the-badge&logo=vercel&logoColor=white)]()
 
-An ANPR-based smart parking solution engineered to automate vehicle entry, track real-time parking sessions, calculate billing, and verify secure payments prior to exit.
+A high-availability production e-commerce platform engineered with resilient micro-tier cloud architecture, secure user authorization workflows, and high-frequency relational data persistence.
 
-#### 🛠️ Technology Stack
-`React` • `TypeScript` • `Java 21` • `Spring Boot 3` • `Spring Security` • `Spring Data JPA` • `PostgreSQL` • `Flyway` • `Maven`
+#### 🏗️ System Architecture & Stack
+* **Frontend Tier:** `React` • `Vite` • `Tailwind CSS` • `Firebase Auth`[cite: 1]
+* **Backend Tier:** `Java` • `Spring Boot` • `RESTful Services` • `Maven`[cite: 1]
+* **Data & Infrastructure:** `MySQL` • `Railway` • `Vercel` • `Git`[cite: 1]
 
-#### 💡 Key Highlights
-- 🚘 **ANPR Integration:** Automated number plate recognition for seamless vehicle entry workflows.
-- 🅿️ **Session Management:** Real-time tracking of parking duration and live occupancy.
-- 💳 **Secure Billing & Exit:** Automated fee computation coupled with pre-exit payment verification.
-- 🗄️ **Robust Persistence:** Clean database architecture backed by automated Flyway schema migrations.
+#### 💎 Core Engineering Highlights
+* **End-to-End Commerce Pipelines:** Architected high-performance product discovery, dynamic filtering state, and streamlined checkout workflows.
+* **Decoupled Security Layer:** Integrated production-grade authentication and session management powered by Firebase.
+* **Transactional Integrity:** Engineered robust relational database models in MySQL optimized for ACID compliance and low-latency queries.
+* **Automated CI/CD Delivery:** Configured seamless production deployments with live domain routing across Vercel and Railway cloud clusters.
 
-🔗 **Repository:** [Smart Parking Repository](https://github.com/Abhay924/Smart_Parking-)
+🔗 **Repository:** [GitHub Source](https://github.com/Abhay924/Full-Stack-E-commarce-) &nbsp;&nbsp;|&nbsp;&nbsp; 🌐 **Production App:** [Access Live System](https://ecommerce-frontend-lime-five.vercel.app)[cite: 1]
 
 </td>
 </tr>
@@ -221,24 +223,26 @@ An ANPR-based smart parking solution engineered to automate vehicle entry, track
 
 <br/>
 
-<table>
+<table width="100%">
 <tr>
 <td width="100%" valign="top">
 
-### 🛍️ Full-Stack E-Commerce Platform &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Live_%2F_Production-success?style=flat-square)]()
+### 🚗 Autonomous ANPR Smart Parking Engine &nbsp;&nbsp;[![Status](https://img.shields.io/badge/STATUS-ACTIVE%20BUILD-FFC107?style=for-the-badge&logo=springboot&logoColor=black)]()
 
-A high-performance full-stack e-commerce ecosystem featuring secure user authentication, an interactive product catalog, complete cart workflows, and modern cloud deployment.
+An advanced automated parking infrastructure leveraging computer vision concepts to govern vehicle ingress, real-time slot telemetry, automated billing computations, and pre-exit cryptographic settlement verification.
 
-#### 🛠️ Technology Stack
-`React` • `Vite` • `Tailwind CSS` • `Firebase Auth` • `Java` • `Spring Boot` • `MySQL` • `Vercel` • `Railway`
+#### 🏗️ System Architecture & Stack
+* **Client Layer:** `React` • `TypeScript` • `HTML5` • `CSS3`[cite: 1]
+* **Server & Persistence:** `Java 21` • `Spring Boot 3` • `Spring Security` • `Spring Data JPA` • `PostgreSQL` • `Flyway`[cite: 1]
+* **Operations & Diagnostics:** `Maven` • `Spring Actuator`[cite: 1]
 
-#### 💡 Key Highlights
-- 🛒 **End-to-End Commerce:** Seamless product browsing, dynamic filtering, and cart management workflows.
-- 🔐 **Secure Authentication:** Robust user verification and session handling powered by Firebase.
-- 🗄️ **Relational Persistence:** Scalable MySQL database modeling robust product and user data.
-- 🚀 **Production Architecture:** High-availability deployment architecture hosted live on Vercel and Railway.
+#### 💎 Core Engineering Highlights
+* **Computer Vision Gateway:** Integrated automated number plate recognition (ANPR) data pipelines for frictionless vehicle check-in.
+* **Real-Time Telemetry:** Developed concurrent session tracking algorithms for dynamic duration calculations and live facility occupancy monitoring.
+* **Automated Financial Clearing:** Built rigorous pre-exit payment verification gateways coupled with automated fee engines.
+* **Enterprise DB Governance:** Managed safe relational schema evolution through version-controlled Flyway migrations and Actuator health endpoints.
 
-🔗 **Repository:** [E-Commerce Repository](https://github.com/Abhay924/Full-Stack-E-commarce-) &nbsp;|&nbsp; 🌐 **Live App:** [View Application](https://ecommerce-frontend-lime-five.vercel.app)
+🔗 **Repository:** [GitHub Source](https://github.com/Abhay924/Smart_Parking-)[cite: 1]
 
 </td>
 </tr>
@@ -246,24 +250,25 @@ A high-performance full-stack e-commerce ecosystem featuring secure user authent
 
 <br/>
 
-<table>
+<table width="100%">
 <tr>
 <td width="100%" valign="top">
 
-### ⭐ CareerOS AI &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Flagship_Project-blue?style=flat-square)]()
+### ⭐ CareerOS AI &nbsp;&nbsp;[![Flagship](https://img.shields.io/badge/FLAGSHIP-PLATFORM-7C3AED?style=for-the-badge&logo=next.js&logoColor=white)]()
 
-An intelligent, AI-powered career enhancement platform designed to assist software engineering aspirants with automated resume optimization, deep company research, and structured interview prep.
+An intelligent, AI-enabled career acceleration platform designed to empower software engineering aspirants with automated resume optimization engines, deep company intelligence, and structured interview prep roadmaps.
 
-#### 🛠️ Technology Stack
-`Next.js` • `React` • `TypeScript` • `NestJS` • `PostgreSQL` • `Prisma` • `Turborepo` • `pnpm`
+#### 🏗️ System Architecture & Stack
+* **Frontend Layer:** `Next.js` • `React` • `TypeScript`[cite: 1]
+* **Backend Tier:** `NestJS` • `PostgreSQL` • `Prisma ORM` • `JWT Security`[cite: 1]
+* **Monorepo & Tooling:** `Turborepo` • `pnpm` • `Git`[cite: 1]
 
-#### 💡 Key Highlights
-- 🤖 **AI-Driven Coaching:** Intelligent career guidance and personalized learning paths.
-- 📄 **ATS Optimization:** Advanced resume analysis mapping skill gaps against target roles.
-- 🎯 **Interview Workflows:** Curated interview preparation modules and company research tools.
-- 🔐 **Modular Architecture:** Secure backend APIs built with NestJS and Prisma ORM.
+#### 💎 Core Engineering Highlights
+* **AI-Driven Recommendation Engines:** Built intelligent career guidance systems mapping personal skill-gaps against industry standards.
+* **ATS Optimization Pipelines:** Implemented algorithmic resume parsing and formatting feedback loops.
+* **Modular Backend Architecture:** Developed clean, decoupled micro-modules using NestJS and type-safe Prisma database bindings.
 
-🔗 **Repository:** [CareerOS AI Repository](https://github.com/Abhay924/CAREEROS-AI)
+🔗 **Repository:** [GitHub Source](https://github.com/Abhay924/CAREEROS-AI)[cite: 1]
 
 </td>
 </tr>
@@ -271,40 +276,30 @@ An intelligent, AI-powered career enhancement platform designed to assist softwa
 
 <br/>
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### 🌱 Green Habit Tracker &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-In_Development-yellow?style=flat-square)]()
+### 🌱 Green Habit Tracker &nbsp;&nbsp;[![Status](https://img.shields.io/badge/STATUS-IN%20DEV-yellow?style=flat-square)]()
 
-A sustainability-focused web application crafted to help users cultivate eco-friendly routines and track daily green habit streaks.
+A sustainability tracker crafted to cultivate eco-friendly routines and maintain consistent green habit streaks.
 
-#### 🛠️ Stack
-`HTML5` • `CSS3` • `JavaScript`
+* **Tech Stack:** `HTML5` • `CSS3` • `JavaScript`[cite: 1]
+* **Core Focus:** Habit streak telemetry and environmental impact analytics[cite: 1].
 
-#### 💡 Highlights
-- 🌿 Daily eco-friendly habit tracking
-- 🔥 Streak analytics for consistency
-- 🌍 Actionable insights for sustainable living
-
-🔗 **[GitHub Repo](https://github.com/Abhay924/Green-Habit-)**
+🔗 **[Repository](https://github.com/Abhay924/Green-Habit-)**[cite: 1]
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 E-Commerce Business Analytics &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Data_Analytics-informational?style=flat-square)]()
+### 📊 E-Commerce Analytics Engine &nbsp;&nbsp;[![Status](https://img.shields.io/badge/STATUS-DATA%20SQL-blue?style=flat-square)]()
 
-An advanced SQL analytics project querying commercial datasets to extract actionable customer behavior insights and business intelligence metrics.
+Advanced analytical querying of commercial transactional datasets to extract customer behavior intelligence.
 
-#### 🛠️ Stack
-`SQL` • `Relational DBs` • `Window Functions`
+* **Tech Stack:** `SQL` • `Relational DBs` • `Window Functions`[cite: 1]
+* **Core Focus:** RFM customer segmentation and cohort retention modeling[cite: 1].
 
-#### 💡 Highlights
-- 💰 Revenue & sales trend breakdowns
-- 🎯 RFM customer segmentation models
-- 📈 Cohort and retention analytics
-
-🔗 **[GitHub Repo](https://github.com/Abhay924/ecommerce-business-analytics)**
+🔗 **[Repository](https://github.com/Abhay924/ecommerce-business-analytics)**[cite: 1]
 
 </td>
 </tr>
@@ -312,36 +307,26 @@ An advanced SQL analytics project querying commercial datasets to extract action
 <tr>
 <td width="50%" valign="top">
 
-### 🏢 Nexyra Systems &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Live-success?style=flat-square)]()
+### 🏢 Nexyra Systems Portal &nbsp;&nbsp;[![Live](https://img.shields.io/badge/ENTERPRISE-LIVE-success?style=flat-square)]()
 
-The official digital footprint and client portal for Nexyra Systems, delivering specialized IT software solutions, web applications, and AI integrations.
+The official digital corporate presence and software service delivery portal for Nexyra Systems.
 
-#### 🛠️ Stack
-`Next.js` • `Tailwind CSS` • `Node.js` • `MongoDB`
+* **Tech Stack:** `Next.js` • `Tailwind CSS` • `Node.js` • `MongoDB`[cite: 1]
+* **Core Focus:** Client acquisition funnels and digital service showcases[cite: 1].
 
-#### 💡 Highlights
-- 🌐 Professional corporate web identity
-- 📩 Integrated client inquiry funnels
-- 💻 Scalable digital service showcases
-
-🌐 **[Visit Website](https://nexyrasystems.com)**
+🌐 **[Visit Platform](https://nexyrasystems.com)**[cite: 1]
 
 </td>
 <td width="50%" valign="top">
 
-### 💻 LeetCode Solutions &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Ongoing-success?style=flat-square)]()
+### 💻 LeetCode Mastery Hub &nbsp;&nbsp;[![Ongoing](https://img.shields.io/badge/PRACTICE-ACTIVE-blueviolet?style=flat-square)]()
 
-A curated public repository tracking continuous algorithmic problem-solving mastery in data structures and core computer science concepts.
+Structured repository tracking continuous algorithmic problem-solving mastery in core computer science.
 
-#### 🛠️ Stack
-`Java` • `Data Structures` • `Algorithms`
+* **Tech Stack:** `Java` • `Data Structures` • `Algorithms`[cite: 1]
+* **Core Focus:** Optimized space-time complexity solutions across graphs and trees[cite: 1].
 
-#### 💡 Highlights
-- 🧮 Arrays, Strings, and Hashing
-- 🌳 Trees, Graphs & Dynamic Programming
-- 🧠 Optimized time/space complexity solutions
-
-🔗 **[GitHub Repo](https://github.com/Abhay924/leetcode-solutions)**
+🔗 **[Repository](https://github.com/Abhay924/leetcode-solutions)**[cite: 1]
 
 </td>
 </tr>
