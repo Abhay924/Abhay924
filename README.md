@@ -200,31 +200,20 @@ Git • GitHub • GitHub Actions • VS Code • IntelliJ IDEA • Postman • 
 <tr>
 <td width="100%" valign="top">
 
-### 🚗 Smart Parking System
+### 🚗 Smart Parking System &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Active_Development-yellow?style=flat-square)]()
 
-An ANPR-based smart parking project focused on automating vehicle entry, parking session tracking, billing, and payment verification before vehicle exit.
+An ANPR-based smart parking solution engineered to automate vehicle entry, track real-time parking sessions, calculate billing, and verify secure payments prior to exit.
 
-#### Frontend
-`React` • `TypeScript` • `HTML5` • `CSS3`
+#### 🛠️ Technology Stack
+`React` • `TypeScript` • `Java 21` • `Spring Boot 3` • `Spring Security` • `Spring Data JPA` • `PostgreSQL` • `Flyway` • `Maven`
 
-#### Backend & Database
-`Java 21` • `Spring Boot 3` • `Spring Security` • `Spring Data JPA` • `PostgreSQL` • `Flyway`
+#### 💡 Key Highlights
+- 🚘 **ANPR Integration:** Automated number plate recognition for seamless vehicle entry workflows.
+- 🅿️ **Session Management:** Real-time tracking of parking duration and live occupancy.
+- 💳 **Secure Billing & Exit:** Automated fee computation coupled with pre-exit payment verification.
+- 🗄️ **Robust Persistence:** Clean database architecture backed by automated Flyway schema migrations.
 
-#### Tools
-`Maven` • `Spring Actuator`
-
-#### Key Highlights
-
-- 🚘 Automatic Number Plate Recognition integration
-- 🅿️ Vehicle entry and parking session management
-- 🧾 Parking duration and fee calculation
-- 💳 Payment verification workflow before exit
-- 🗄️ Database persistence and schema migrations
-- 🩺 Backend health monitoring
-
-**Status:** 🟡 Active Development
-
-🔗 **Repository:** [Smart Parking](https://github.com/Abhay924/Smart_Parking-)
+🔗 **Repository:** [Smart Parking Repository](https://github.com/Abhay924/Smart_Parking-)
 
 </td>
 </tr>
@@ -235,66 +224,46 @@ An ANPR-based smart parking project focused on automating vehicle entry, parking
 <table>
 <tr>
 <td width="100%" valign="top">
-<table>
-<tr>
-<td width="100%" valign="top">
 
-### 🛍️ Full-Stack E-Commerce Application <sup>Production</sup>
+### 🛍️ Full-Stack E-Commerce Platform &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Live_%2F_Production-success?style=flat-square)]()
 
-A comprehensive full-stack e-commerce platform featuring secure user authentication, a responsive product catalog, shopping cart functionality, and a fully live production architecture.
+A high-performance full-stack e-commerce ecosystem featuring secure user authentication, an interactive product catalog, complete cart workflows, and modern cloud deployment.
 
-#### Frontend
-`React` • `Vite` • `Tailwind CSS` • `Firebase Auth`
+#### 🛠️ Technology Stack
+`React` • `Vite` • `Tailwind CSS` • `Firebase Auth` • `Java` • `Spring Boot` • `MySQL` • `Vercel` • `Railway`
 
-#### Backend & Database
-`Java` • `Spring Boot` • `MySQL`
+#### 💡 Key Highlights
+- 🛒 **End-to-End Commerce:** Seamless product browsing, dynamic filtering, and cart management workflows.
+- 🔐 **Secure Authentication:** Robust user verification and session handling powered by Firebase.
+- 🗄️ **Relational Persistence:** Scalable MySQL database modeling robust product and user data.
+- 🚀 **Production Architecture:** High-availability deployment architecture hosted live on Vercel and Railway.
 
-#### Tools
-`Vercel` • `Railway` • `Maven` • `Git`
-
-#### Key Highlights
-
-- 🛒 End-to-end e-commerce product browsing and cart management workflows
-- 🔐 Secure user authentication and verification powered by Firebase
-- 🗄️ Robust relational data persistence using MySQL
-- 🚀 Production-grade deployment hosted live on Vercel and Railway
-- 📱 Responsive, modern Flipkart-inspired user interface
-
-**Status:** 🟢 Live / Production
-
-🔗 **Repository:** [Full-Stack E-Commerce](https://github.com/Abhay924/Full-Stack-E-commarce-)
-
-🌐 **Live App:** [ecommerce-frontend-lime-five.vercel.app](https://ecommerce-frontend-lime-five.vercel.app)
+🔗 **Repository:** [E-Commerce Repository](https://github.com/Abhay924/Full-Stack-E-commarce-) &nbsp;|&nbsp; 🌐 **Live App:** [View Application](https://ecommerce-frontend-lime-five.vercel.app)
 
 </td>
 </tr>
 </table>
 
-### ⭐ CareerOS AI <sup>Flagship Project</sup>
+<br/>
 
-An AI-powered career platform in development, designed to help students prepare for software engineering roles through resume improvement, company research, interview preparation, and personalized learning guidance.
+<table>
+<tr>
+<td width="100%" valign="top">
 
-#### Frontend
-`Next.js` • `React` • `TypeScript`
+### ⭐ CareerOS AI &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Flagship_Project-blue?style=flat-square)]()
 
-#### Backend & Database
-`NestJS` • `PostgreSQL` • `Prisma` • `JWT`
+An intelligent, AI-powered career enhancement platform designed to assist software engineering aspirants with automated resume optimization, deep company research, and structured interview prep.
 
-#### Tools
-`Turborepo` • `pnpm` • `Git`
+#### 🛠️ Technology Stack
+`Next.js` • `React` • `TypeScript` • `NestJS` • `PostgreSQL` • `Prisma` • `Turborepo` • `pnpm`
 
-#### Key Highlights
+#### 💡 Key Highlights
+- 🤖 **AI-Driven Coaching:** Intelligent career guidance and personalized learning paths.
+- 📄 **ATS Optimization:** Advanced resume analysis mapping skill gaps against target roles.
+- 🎯 **Interview Workflows:** Curated interview preparation modules and company research tools.
+- 🔐 **Modular Architecture:** Secure backend APIs built with NestJS and Prisma ORM.
 
-- 🤖 AI-powered career assistance
-- 📄 Resume analysis and ATS optimization roadmap
-- 🏢 Company and role research
-- 🎯 Interview preparation workflows
-- 📊 Skill-gap identification and learning guidance
-- 🔐 Authentication and modular API architecture
-
-**Status:** 🟢 Active Development
-
-🔗 **Repository:** [CAREEROS-AI](https://github.com/Abhay924/CAREEROS-AI)
+🔗 **Repository:** [CareerOS AI Repository](https://github.com/Abhay924/CAREEROS-AI)
 
 </td>
 </tr>
@@ -306,48 +275,36 @@ An AI-powered career platform in development, designed to help students prepare 
 <tr>
 <td width="50%" valign="top">
 
-### 🌱 Green Habit Tracker
+### 🌱 Green Habit Tracker &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-In_Development-yellow?style=flat-square)]()
 
-A sustainability-focused application designed to help users track eco-friendly habits, build consistent routines, and monitor progress toward a greener lifestyle.
+A sustainability-focused web application crafted to help users cultivate eco-friendly routines and track daily green habit streaks.
 
-#### Stack Technology
-`HTML` • `CSS` • `JavaScript`
+#### 🛠️ Stack
+`HTML5` • `CSS3` • `JavaScript`
 
-#### Key Highlights
+#### 💡 Highlights
+- 🌿 Daily eco-friendly habit tracking
+- 🔥 Streak analytics for consistency
+- 🌍 Actionable insights for sustainable living
 
-- 🌿 Track eco-friendly daily habits
-- 🎯 Build consistent sustainable routines
-- 📊 Monitor habit completion and progress
-- 🔥 Encourage consistency through habit streaks
-- 🌍 Promote environmentally responsible choices
-
-**Status:** 🟡 In Development
-
-🔗 **Repository:** [Green Habit Tracker](https://github.com/Abhay924/Green-Habit-)
+🔗 **[GitHub Repo](https://github.com/Abhay924/Green-Habit-)**
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 E-Commerce Business Analytics
+### 📊 E-Commerce Business Analytics &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Data_Analytics-informational?style=flat-square)]()
 
-A SQL-focused analytics project designed to explore e-commerce data, investigate business questions, and develop data-driven insights.
+An advanced SQL analytics project querying commercial datasets to extract actionable customer behavior insights and business intelligence metrics.
 
-#### Technologies
-`SQL` • `Relational Databases` • `Business Analytics`
+#### 🛠️ Stack
+`SQL` • `Relational DBs` • `Window Functions`
 
-#### Analysis Areas
+#### 💡 Highlights
+- 💰 Revenue & sales trend breakdowns
+- 🎯 RFM customer segmentation models
+- 📈 Cohort and retention analytics
 
-- 💰 Revenue and sales analysis
-- 👥 Customer behavior analysis
-- 📦 Product performance
-- 📣 Marketing performance analysis
-- 📈 Cohort and retention analysis
-- 🎯 RFM customer segmentation
-- 🧮 Advanced SQL and window functions
-
-**Status:** 🟡 In Development
-
-🔗 **Repository:** [E-Commerce Business Analytics](https://github.com/Abhay924/ecommerce-business-analytics)
+🔗 **[GitHub Repo](https://github.com/Abhay924/ecommerce-business-analytics)**
 
 </td>
 </tr>
@@ -355,54 +312,40 @@ A SQL-focused analytics project designed to explore e-commerce data, investigate
 <tr>
 <td width="50%" valign="top">
 
-### 🏢 Nexyra Systems
+### 🏢 Nexyra Systems &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Live-success?style=flat-square)]()
 
-The digital presence of Nexyra Systems, an IT services venture focused on building web applications, software products, and AI-enabled solutions.
+The official digital footprint and client portal for Nexyra Systems, delivering specialized IT software solutions, web applications, and AI integrations.
 
-#### Frontend
-`Next.js` • `React` • `Tailwind CSS`
+#### 🛠️ Stack
+`Next.js` • `Tailwind CSS` • `Node.js` • `MongoDB`
 
-#### Backend & Database
-`Node.js` • `MongoDB`
+#### 💡 Highlights
+- 🌐 Professional corporate web identity
+- 📩 Integrated client inquiry funnels
+- 💻 Scalable digital service showcases
 
-#### Key Highlights
-
-- 🌐 Corporate website and brand presence
-- 💻 Web and application development services
-- 🤖 AI-enabled solution concepts
-- 📩 Client inquiries and lead-generation workflows
-- 📱 Responsive user experience
-
-**Status:** 🟢 Active
-
-🌐 **Live Website:** [nexyrasystems.com](https://nexyrasystems.com)
+🌐 **[Visit Website](https://nexyrasystems.com)**
 
 </td>
 <td width="50%" valign="top">
 
-### 💻 LeetCode Solutions
+### 💻 LeetCode Solutions &nbsp;&nbsp;[![Status](https://img.shields.io/badge/Status-Ongoing-success?style=flat-square)]()
 
-A public collection of coding practice solutions documenting progress in data structures, algorithms, and problem-solving.
+A curated public repository tracking continuous algorithmic problem-solving mastery in data structures and core computer science concepts.
 
-#### Focus Areas
+#### 🛠️ Stack
+`Java` • `Data Structures` • `Algorithms`
 
-- 🧮 Arrays, strings, and hashing
-- 🔗 Linked lists and stacks
-- 🪟 Two pointers and sliding window
-- 🌳 Trees and graphs
-- 🧠 Algorithmic problem-solving
+#### 💡 Highlights
+- 🧮 Arrays, Strings, and Hashing
+- 🌳 Trees, Graphs & Dynamic Programming
+- 🧠 Optimized time/space complexity solutions
 
-**Language:** `Java`
-
-**Status:** 🟢 Ongoing Practice
-
-🔗 **Repository:** [LeetCode Solutions](https://github.com/Abhay924/leetcode-solutions)
+🔗 **[GitHub Repo](https://github.com/Abhay924/leetcode-solutions)**
 
 </td>
 </tr>
-
-<tr>
-<td width="50%" valign="top">
+</table>
 
 ### 🎯 Engineering Focus
 
